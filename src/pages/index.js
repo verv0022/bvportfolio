@@ -1,22 +1,36 @@
-import React from "react"
-import { Link } from "gatsby"
-
-import Layout from "../components/layout"
-import Image from "../components/image"
+import React, { useState } from "react"
+import Landing from "../components/Sections/Landing/Landing"
 import SEO from "../components/seo"
+import Header from "../components/Header/Header"
+import Sidebar from "../components/Sidebar/Sidebar"
+import Backdrop from "../components/Backdrop/Backdrop"
+import About from "../components/Sections/About/About"
+import Projects from "../components/Sections/Projects/Projects"
+import Services from "../components/Sections/Services/Services"
+import Contact from "../components/Sections/Contact/Contact"
+import Footer from "../components/Footer/Footer"
+import "../layout.css"
 
-const IndexPage = () => (
-  <Layout>
-    <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
+const IndexPage = () => {
+  const [isSidebarOpen, setIsSidebarOpen] = useState(false)
+
+  const toggle = () => {
+    setIsSidebarOpen(!isSidebarOpen)
+  }
+
+  return (
+    <div>
+      <SEO title="Home" />
+      <Header toggle={toggle} isSidebarOpen={isSidebarOpen} />
+      <Sidebar show={isSidebarOpen} hide={toggle} />
+      {isSidebarOpen ? <Backdrop click={toggle} /> : null}
+      <Landing />
+      <About />
+      <Projects />
+      <Services />
+      <Contact />
+      <Footer />
     </div>
-    <Link to="/page-2/">Go to page 2</Link> <br />
-    <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
-  </Layout>
-)
-
+  )
+}
 export default IndexPage

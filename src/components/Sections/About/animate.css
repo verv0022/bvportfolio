@@ -1,0 +1,15 @@
+#sqaure4 {
+  animation: test 3s infinite;
+}
+
+@keyframes test {
+  from {
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  to {
+    opacity: 0.2;
+    visibility: visible;
+  }
+}

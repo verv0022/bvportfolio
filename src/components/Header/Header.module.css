@@ -1,0 +1,32 @@
+:global(.hamburger-react) {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  height: 30px;
+  width: 36px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  margin-left: auto;
+}
+.navigation {
+  margin-left: auto;
+}
+.logo {
+  height: 60px;
+  width: auto;
+}
+
+@media (min-width: 899px) {
+  :global(.hamburger-react) {
+    display: none;
+  }
+}
+@media (max-width: 900px) {
+  .navigation {
+    display: none;
+  }
+}
