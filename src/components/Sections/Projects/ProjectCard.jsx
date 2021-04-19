@@ -65,7 +65,6 @@ const ProjectCard = ({
         <div className={styles.cardContent}>
           <h1 className={styles.cardTitle}>{name}</h1>
           <p className={styles.cardDescription}>{description}</p>
-
           <div className={styles.mobileIcons}>
             {example ? <ExampleIcon /> : null}
             {source ? <SourceIcon /> : null}

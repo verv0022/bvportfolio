@@ -3,7 +3,7 @@
  <style>
     .squares{
      opacity: 0;
-      animation: 5.5s opacity infinite;
+      animation: 10.0s opacity infinite;
     }
     @keyframes opacity {
       15% {opacity: 0} 
@@ -11,28 +11,28 @@
       65% {opacity: 1} 
       85% {opacity: 0}
     }
-    #s1  {animation-delay: 0.5s}
-    #s3  {animation-delay: 1.0s}
-    #s4  {animation-delay: 1.5s}
-    #s5  {animation-delay: 2.0s}
-    #s5  {animation-delay: 2.5s}
-    #s6  {animation-delay: 3.0s}
-    #s7  {animation-delay: 3.5s}
-    #s8  {animation-delay: 0.5s}
-    #s9  {animation-delay: 1.0s}
-    #s10 {animation-delay: 1.5s}
-    #s11 {animation-delay: 2.0s}
-    #s12 {animation-delay: 2.5s}
-    #s13 {animation-delay: 3.0s}
-    #s14 {animation-delay: 3.5s}
-    #s15 {animation-delay: 1.5s}
-    #s16 {animation-delay: 5.0s}
-    #s17 {animation-delay: 2.0s}
-    #s18 {animation-delay: 3.0s}
-    #s19 {animation-delay: 0.5s}
-    #s20 {animation-delay: 3.0s}
-    #s21 {animation-delay: 1.5s}
-    #s22 {animation-delay: 2.5s}
+    #s1  {animation-delay: 1.0s}
+    #s3  {animation-delay: 2.0s}
+    #s4  {animation-delay: 3.0s}
+    #s5  {animation-delay: 4.0s}
+    #s5  {animation-delay: 5.0s}
+    #s6  {animation-delay: 6.0s}
+    #s7  {animation-delay: 7.0s}
+    #s8  {animation-delay: 8.0s}
+    #s9  {animation-delay: 9.0s}
+    #s10 {animation-delay: 10.0s}
+    #s11 {animation-delay: 11.0s}
+    #s12 {animation-delay: 12.0s}
+    #s13 {animation-delay: 13.0s}
+    #s14 {animation-delay: 14.0s}
+    #s15 {animation-delay: 15.0s}
+    #s16 {animation-delay: 16.0s}
+    #s17 {animation-delay: 17.0s}
+    #s18 {animation-delay: 18.0s}
+    #s19 {animation-delay: 19.0s}
+    #s20 {animation-delay: 20.0s}
+    #s21 {animation-delay: 21.0s}
+    #s22 {animation-delay: 22.0s}
   </style>
 <path class="squares" id="s16" d="M815.6 283H763.6V310H815.6V283Z" fill="#C6C6C6"/>
 <path class="squares" id="17" d="M819.6 316H767.6V343H819.6V316Z" fill="#C6C6C6"/>

@@ -2,7 +2,10 @@
   display: flex;
   align-items: flex-start;
   justify-content: center;
-  background-color: #33bdcc;
+  background-color: #19526a;
+  background-image: url("../../../images/Backgrounds/circles.svg");
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .content {
   display: flex;
@@ -24,20 +27,48 @@
   width: 100%;
 }
 .service {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+
   text-align: center;
-  padding: 1rem;
-  border: 2px solid black;
-  border-radius: 12px;
-  width: 300px;
+  padding: 20px;
+  flex: 0 1 calc(25% - 1em);
   height: 300px;
+  background-image: linear-gradient(
+    to bottom right,
+    rgba(255, 255, 255, 0.363),
+    rgba(255, 255, 255, 0.1)
+  );
+  backdrop-filter: blur(3px);
+  border-radius: 20px;
 }
-.service > h3,
+.serviceList {
+  list-style: none;
+  margin-top: 10px;
+}
+.serviceTitle {
+  margin-top: 20px;
+}
+.serviceList > li {
+  margin-top: 8px;
+}
 h3 {
   font-family: "Roboto", Helvetica, Arial, Lucida, sans-serif;
 }
 .icon {
   height: 80px;
 }
-.serviceTitle {
-  margin-top: 2rem;
+
+@media (min-width: 600px) and (max-width: 1300px) {
+  .servicesContainer {
+    flex-direction: row;
+  }
+}
+
+@media (max-width: 599px) {
+  .servicesContainer {
+    flex-direction: column;
+  }
 }
