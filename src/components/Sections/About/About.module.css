@@ -32,6 +32,7 @@
   border-radius: 20px;
   padding: 4rem;
   backdrop-filter: blur(4px);
+  max-width: 1200px;
 }
 .aboutMeText {
   font-size: clamp(1rem, 0.85rem + 0.8vw, 1.5rem);
