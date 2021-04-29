@@ -16,11 +16,11 @@ const Contact = () => (
         <input type="hidden" name="bot-field" />
         <input type="hidden" name="form-name" value="contact-form" />
         <div className={styles.field}>
-          <label htmlFor="name">Name</label>
+          <label htmlFor="name">Name:</label>
           <input type="text" name="name" id="name" placeholder="John Smith" />
         </div>
         <div className={styles.field}>
-          <label htmlFor="email">Email</label>
+          <label htmlFor="email">Email:</label>
           <input
             type="text"
             name="email"
@@ -29,18 +29,10 @@ const Contact = () => (
           />
         </div>
         <div className={styles.field}>
-          <label htmlFor="message">Message</label>
+          <label htmlFor="message">Message:</label>
           <textarea name="message" id="message" rows="6" placeholder="Hello" />
         </div>
         <ul className={styles.actions}>
-          <li>
-            <input
-              type="reset"
-              value="Clear"
-              className="special"
-              id={styles.clear}
-            />
-          </li>
           <li>
             <input
               type="submit"

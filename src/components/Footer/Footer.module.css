@@ -3,14 +3,28 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 20px;
-  background-color: #19526a;
+  height: 100px;
+  background-color: #141414;
 }
-
 .content {
   width: 80%;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  margin: 6rem 0;
+  justify-content: center;
+  max-width: 1600px;
+}
+.copyright {
+  color: white;
+  font-size: clamp(1rem, 0.85rem + 0.8vw, 1rem);
+  text-align: center;
+}
+.icon {
+  margin: 10px;
+  height: 30px;
+  width: auto;
+}
+.icons {
+  position: absolute;
+  right: 50px;
 }

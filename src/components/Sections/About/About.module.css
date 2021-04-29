@@ -14,7 +14,8 @@
   align-items: center;
   justify-content: center;
   width: 80%;
-  padding: 4rem;
+  padding: 4rem 0;
+  max-width: 1600px;
 }
 .title {
   align-self: flex-start;
@@ -26,18 +27,18 @@
   display: flex;
   flex-direction: row;
   align-items: flex-end;
-  background-color: #0d131fec;
+  /* background-color: #0d131fec; */
+  background-image: linear-gradient(to bottom right, #090c14f5, #0d131f15);
   border-radius: 20px;
   padding: 4rem;
   backdrop-filter: blur(4px);
 }
 .aboutMeText {
   font-size: clamp(1rem, 0.85rem + 0.8vw, 1.5rem);
-  margin-right: 5rem;
   text-align: left;
   color: #e0e0e0;
 }
-.collegeLink {
+/* .collegeLink {
   color: #f7f7f7;
   background: linear-gradient(
     to bottom,
@@ -55,10 +56,14 @@
   background-repeat: repeat-x;
   text-decoration: none;
   font-weight: bolder;
-}
+} */
 .aboutMeImage {
+  max-width: 100%;
+  width: auto;
   height: auto;
-  max-height: 400px;
+  margin-left: 2rem;
+  max-height: 300px;
+  margin-left: 2rem;
 }
 .skillList {
   display: grid;
@@ -73,16 +78,14 @@
 .aboutMeText > p {
   white-space: pre-line;
 }
-@media (min-width: 600px) and (max-width: 1200px) {
+
+@media (min-width: 600px) and (max-width: 1300px) {
   .aboutMeContainer {
     flex-direction: column;
     align-items: center;
-  }
-  .aboutMeText {
-    margin-right: 0;
+    justify-content: center;
   }
   .aboutMeImage {
-    height: 250px;
     margin: 4rem 6rem 0rem 6rem;
   }
 }
@@ -96,7 +99,6 @@
     margin-right: 0;
   }
   .aboutMeImage {
-    height: 150px;
     margin: 2rem 6rem;
   }
   .skillList {

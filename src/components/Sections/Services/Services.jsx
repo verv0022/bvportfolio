@@ -18,7 +18,13 @@ const Services = () => {
                 <h3>Responsive Design</h3>
               </li>
               <li>
-                <h3>Responsive Design</h3>
+                <h3>Cross Browser Compatibility </h3>
+              </li>
+              <li>
+                <h3>Mobile-first Approach</h3>
+              </li>
+              <li>
+                <h3>Search Engine Optimization</h3>
               </li>
             </ul>
           </section>
@@ -31,10 +37,15 @@ const Services = () => {
             <h2 className={styles.serviceTitle}>Mobile Development</h2>
             <ul className={styles.serviceList}>
               <li>
-                <h3>Native Development</h3>
+                <h3>
+                  Native Development <br />
+                  (Swift, Kotlin)
+                </h3>
               </li>
               <li>
-                <h3> Hybrid Development</h3>
+                <h3>
+                  Hybrid Development <br /> (React Native, Cordova)
+                </h3>
               </li>
             </ul>
           </section>

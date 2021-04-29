@@ -1,7 +1,6 @@
 import React from "react"
 import styles from "./About.module.css"
 import aboutMeImage from "../../../images/dev.svg"
-import FadeInSection from "../../FadeInSection/FadeInSection"
 
 const About = () => {
   return (
@@ -13,7 +12,7 @@ const About = () => {
             <p>
               Hello! My name is Brandon Vervoort. I’m a perfectionist who loves
               turning ideas into reality. To do this my main tool is JavaScript
-              and its frame-works such as React but it is not the only tool I
+              and its frame-works such as React but JS isn't the only tool I
               use. I know my way around Photoshop, Illustrator, and prototyping
               tools such as XD and Figma. I have a strong balance of creative
               and technical knowledge, I’m a coder who loves design.
@@ -51,6 +50,7 @@ const About = () => {
                 <li>Nodejs</li>
               </ul> */}
           </div>
+
           <img className={styles.aboutMeImage} src={aboutMeImage} alt="logo" />
         </div>
       </div>
