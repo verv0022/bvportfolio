@@ -18,6 +18,7 @@
   color: white;
   font-size: clamp(1rem, 0.85rem + 0.8vw, 1rem);
   text-align: center;
+  font-family: "Roboto", Helvetica, Arial, Lucida, sans-serif;
 }
 .icon {
   margin: 10px;

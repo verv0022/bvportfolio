@@ -7,24 +7,23 @@
   align-items: center;
   background-color: #f7f7f7;
   background-image: url("../../../images/Backgrounds/bottomwave.svg"),
-    linear-gradient(45deg, rgb(255, 255, 255) 0%, transparent 36%),
     repeating-linear-gradient(
       135deg,
-      rgba(197, 197, 197, 0.1) 0px,
-      rgba(197, 197, 197, 0.1) 1px,
+      hsla(35, 0%, 71%, 0.09) 0px,
+      hsla(35, 0%, 71%, 0.09) 1px,
       transparent 1px,
       transparent 11px
     ),
     repeating-linear-gradient(
       45deg,
-      rgba(197, 197, 197, 0.1) 0px,
-      rgba(197, 197, 197, 0.1) 1px,
+      hsla(35, 0%, 71%, 0.09) 0px,
+      hsla(35, 0%, 71%, 0.09) 1px,
       transparent 1px,
       transparent 11px
     ),
-    linear-gradient(0deg, rgb(255, 255, 255), rgb(255, 255, 255));
-  background-repeat: no-repeat, repeat, repeat, repeat, repeat;
-  background-position: top, center, center, center, center;
+    linear-gradient(90deg, hsl(183, 0%, 100%), hsl(183, 0%, 100%));
+  background-repeat: no-repeat, repeat, repeat, repeat;
+  background-position: top, center, center, center;
 }
 .content {
   max-width: 1600px;

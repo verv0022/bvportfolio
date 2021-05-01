@@ -20,7 +20,7 @@ const IndexPage = () => {
 
   return (
     <div>
-      <SEO title="Home" />
+      <SEO title="Brandon Vervoort" />
       <Header toggle={toggle} isSidebarOpen={isSidebarOpen} />
       <Sidebar show={isSidebarOpen} hide={toggle} />
       {isSidebarOpen ? <Backdrop click={toggle} /> : null}

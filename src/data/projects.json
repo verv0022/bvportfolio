@@ -15,7 +15,7 @@
   {
     "name": "Restaurant Finder",
     "image": "./images/yelp.jpg",
-    "description": "A simple mobile application used to find restaurants nearby using yelp's fusion api. Note - some icons may not load on the web demo / loading may be slow",
+    "description": "A simple mobile application used to find restaurants nearby using yelp's fusion api.",
     "source": "https://github.com/verv0022/yelp-restaurant-finder",
     "example": "https://snack.expo.io/@zer0day/yelp-restaurant-finder"
   },

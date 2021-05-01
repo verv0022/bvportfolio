@@ -13,7 +13,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 80%;
+  width: 75%;
   padding: 4rem 0;
   max-width: 1600px;
 }
@@ -27,20 +27,21 @@
   display: flex;
   flex-direction: row;
   align-items: flex-end;
-  /* background-color: #0d131fec; */
   background-image: linear-gradient(to bottom right, #090c14f5, #0d131f15);
-  border-radius: 20px;
-  padding: 4rem;
   backdrop-filter: blur(4px);
-  max-width: 1200px;
+  border-radius: 20px;
+  padding: 3rem;
+  min-width: 100%;
+  max-width: 1600px;
 }
 .aboutMeText {
   font-size: clamp(1rem, 0.85rem + 0.8vw, 1.5rem);
   text-align: left;
   color: #e0e0e0;
+  width: 50%;
 }
-/* .collegeLink {
-  color: #f7f7f7;
+.collegeLink {
+  color: #00b1cc;
   background: linear-gradient(
     to bottom,
     var(--mainColor) 0%,
@@ -51,19 +52,18 @@
   background-size: 3px 3px;
 }
 .collegeLink:hover {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%230b366e' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23009FB8' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
   background-position: 0 100%;
   background-size: auto 6px;
   background-repeat: repeat-x;
   text-decoration: none;
   font-weight: bolder;
-} */
+}
 .aboutMeImage {
   max-width: 100%;
-  width: auto;
+  width: 50%;
   height: auto;
-  margin-left: 2rem;
-  max-height: 300px;
+  max-height: 400px;
   margin-left: 2rem;
 }
 .skillList {
@@ -86,8 +86,12 @@
     align-items: center;
     justify-content: center;
   }
+  .aboutMeText {
+    width: 100%;
+  }
   .aboutMeImage {
     margin: 4rem 6rem 0rem 6rem;
+    width: 100%;
   }
 }
 @media (max-width: 699px) {
@@ -98,9 +102,11 @@
   }
   .aboutMeText {
     margin-right: 0;
+    width: 100%;
   }
   .aboutMeImage {
     margin: 2rem 6rem;
+    width: auto;
   }
   .skillList {
     display: grid;
