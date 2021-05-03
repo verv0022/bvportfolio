@@ -85,7 +85,6 @@ input:focus {
 input:focus::placeholder {
   color: transparent;
 }
-
 label {
   margin-bottom: 12px;
 }

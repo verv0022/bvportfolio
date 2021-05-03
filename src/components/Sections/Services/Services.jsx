@@ -1,8 +1,8 @@
 import React from "react"
 import styles from "./Services.module.css"
-import ux from "../../../images/Icons/ux.svg"
-import mobile from "../../../images/Icons/mobile.svg"
-import web from "../../../images/Icons/web.svg"
+import Ux from "../../../images/Icons/ux.svg"
+import Mobile from "../../../images/Icons/mobile.svg"
+import Web from "../../../images/Icons/web.svg"
 import Tilt from "react-parallax-tilt"
 
 const Services = () => {
@@ -13,7 +13,7 @@ const Services = () => {
         <div className={styles.servicesContainer}>
           <Tilt tiltMaxAngleX="6" tiltMaxAngleY="6">
             <section className={styles.service} id={styles.web}>
-              <img src={web} alt="Web Development" className={styles.icon} />
+              <Web alt="Web Development" className={styles.icon} />
               <h2 className={styles.serviceTitle}>Web Development</h2>
               <ul className={styles.serviceList}>
                 <li>Responsive Design</li>
@@ -25,11 +25,7 @@ const Services = () => {
           </Tilt>
           <Tilt tiltMaxAngleX="6" tiltMaxAngleY="6">
             <section className={styles.service} id={styles.mobile}>
-              <img
-                src={mobile}
-                alt="Mobile Development"
-                className={styles.icon}
-              />
+              <Mobile alt="Mobile Development" className={styles.icon} />
               <h2 className={styles.serviceTitle}>Mobile Development</h2>
               <ul className={styles.serviceList}>
                 <li>
@@ -44,12 +40,7 @@ const Services = () => {
           </Tilt>
           <Tilt tiltMaxAngleX="6" tiltMaxAngleY="6">
             <section className={styles.service} id={styles.ux}>
-              <img
-                src={ux}
-                alt="UX Design"
-                className={styles.icon}
-                height="80px"
-              />
+              <Ux alt="UX Design" className={styles.icon} />
               <h2 className={styles.serviceTitle}>UX Design</h2>
               <ul className={styles.serviceList}>
                 <li>User Research</li>

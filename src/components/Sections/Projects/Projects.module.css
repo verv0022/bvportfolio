@@ -64,7 +64,7 @@
   border-radius: 10px;
   overflow: hidden;
   z-index: -1;
-  background: #1f2229;
+  background-image: linear-gradient(to bottom right, #141414, #141414);
   contain: strict;
 }
 .overlay {
@@ -145,12 +145,11 @@
   }
   .cardContent {
     padding: 5px;
+    align-items: left;
+    text-align: left;
   }
   .cardTitle {
     padding: 10px 0 10px 0;
-  }
-  .cardDescription {
-    display: none;
   }
   .card {
     width: 280px;
@@ -159,18 +158,19 @@
     display: none;
   }
   .icon {
-    height: 40px;
+    height: 30px;
     margin: 0rem;
   }
   .icons {
     text-decoration: none;
     color: #fff;
-    margin: 20px;
+    margin: 10px;
   }
   .mobileIcons {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-self: flex-end;
   }
   .iconLabel {
     display: none;

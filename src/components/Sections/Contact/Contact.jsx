@@ -34,12 +34,9 @@ const Contact = () => (
         </div>
         <ul className={styles.actions}>
           <li>
-            <input
-              type="submit"
-              value="Send Message"
-              className="special"
-              id={styles.submit}
-            />
+            <button className="special" id={styles.submit}>
+              Send Message
+            </button>
           </li>
         </ul>
       </form>

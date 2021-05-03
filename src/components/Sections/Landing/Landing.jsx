@@ -1,9 +1,9 @@
 import React from "react"
 import Div100vh from "react-div-100vh"
 import styles from "./Landing.module.css"
-import pdf from "../../../images/Icons/pdf.svg"
-import linkedin from "../../../images/Icons/linkedin.svg"
-import github from "../../../images/Icons/github.svg"
+import Pdf from "../../../images/Icons/pdf.svg"
+import Github from "../../../images/Icons/github.svg"
+import LinkedIn from "../../../images/Icons/linkedin.svg"
 
 const Landing = () => {
   return (
@@ -22,21 +22,21 @@ const Landing = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src={pdf} alt="Resume" className={styles.icon} />
+              <Pdf alt="Resume" className={styles.icon} />
             </a>
             <a
               href={`https://github.com/verv0022`}
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src={github} alt="Github" className={styles.icon} />
+              <Github alt="Github" className={styles.icon} />
             </a>
             <a
               href={`https://www.linkedin.com/in/brandonwv/`}
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src={linkedin} alt="LinkedIn" className={styles.icon} />
+              <LinkedIn alt="LinkedIn" className={styles.icon} />
             </a>
           </div>
         </div>
