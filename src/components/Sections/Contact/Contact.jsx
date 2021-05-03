@@ -17,7 +17,13 @@ const Contact = () => (
         <input type="hidden" name="form-name" value="contact-form" />
         <div className={styles.field}>
           <label htmlFor="name">Name:</label>
-          <input type="text" name="name" id="name" placeholder="John Smith" />
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="John Smith"
+            className={styles.textInput}
+          />
         </div>
         <div className={styles.field}>
           <label htmlFor="email">Email:</label>
@@ -26,6 +32,7 @@ const Contact = () => (
             name="email"
             id="email"
             placeholder="youremail@domain"
+            className={styles.textInput}
           />
         </div>
         <div className={styles.field}>
@@ -34,9 +41,12 @@ const Contact = () => (
         </div>
         <ul className={styles.actions}>
           <li>
-            <button type="submit" id={styles.submit}>
-              Send Message
-            </button>
+            <input
+              type="submit"
+              value="Send Message"
+              className="special"
+              id={styles.submit}
+            />
           </li>
         </ul>
       </form>
