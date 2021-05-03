@@ -34,7 +34,7 @@ const Contact = () => (
         </div>
         <ul className={styles.actions}>
           <li>
-            <button className="special" id={styles.submit}>
+            <button type="submit" id={styles.submit}>
               Send Message
             </button>
           </li>
