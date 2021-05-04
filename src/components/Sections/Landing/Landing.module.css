@@ -3,62 +3,43 @@
   align-items: center;
   justify-content: center;
   background-image: url("../../../images/Backgrounds/topwave.svg"),
-    url("../../../images/Backgrounds/sun.svg"),
-    linear-gradient(
-      135deg,
-      rgba(159, 159, 159, 0.27) 0%,
-      rgba(159, 159, 159, 0.27) 14.286%,
-      rgba(165, 165, 165, 0.23) 14.286%,
-      rgba(165, 165, 165, 0.23) 28.572%,
-      rgba(171, 171, 171, 0.2) 28.572%,
-      rgba(171, 171, 171, 0.2) 42.858%,
-      rgba(178, 178, 178, 0.17) 42.858%,
-      rgba(178, 178, 178, 0.17) 57.144%,
-      rgba(184, 184, 184, 0.12) 57.144%,
-      rgba(184, 184, 184, 0.12) 71.43%,
-      rgba(190, 190, 190, 0.06) 71.43%,
-      rgba(190, 190, 190, 0.06) 85.716%,
-      rgba(196, 196, 196, 0.17) 85.716%,
-      rgba(196, 196, 196, 0.17) 100.002%
-    ),
-    linear-gradient(
-      45deg,
-      rgb(252, 252, 252) 0%,
-      rgb(252, 252, 252) 14.286%,
-      rgba(246, 246, 246, 0.23) 14.286%,
-      rgba(246, 246, 246, 0.23) 28.572%,
-      rgb(241, 241, 241) 28.572%,
-      rgb(241, 241, 241) 42.858%,
-      rgba(235, 235, 235, 0.97) 42.858%,
-      rgba(235, 235, 235, 0.97) 57.144%,
-      rgb(229, 229, 229) 57.144%,
-      rgb(229, 229, 229) 71.43%,
-      rgba(224, 224, 224, 0.64) 71.43%,
-      rgba(224, 224, 224, 0.64) 85.716%,
-      rgba(218, 218, 218, 0.66) 85.716%,
-      rgba(218, 218, 218, 0.66) 100.002%
-    );
-  background-repeat: no-repeat, no-repeat, no-repeat;
+    url("../../../images/Backgrounds/sun.svg");
+  background-repeat: no-repeat, no-repeat;
   background-color: #f7f7f7;
-  background-position: bottom, calc(100vh - 0rem) calc(50vh - 8rem), center,
-    center;
-  background-attachment: scroll, fixed, scroll, scroll;
+  background-position: bottom, 80% 90%;
+  background-attachment: scroll, fixed;
 }
-.wrapper {
+/* .wave {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+}
+.sun {
+  position: fixed;
+  padding: 2em;
+  left: 50%;
+  top: 50%;
+  transform: translate(-20%, -15%);
+  z-index: -1;
+  max-width: 1000px;
+} */
+.content {
   display: flex;
   flex-direction: column;
-  margin-bottom: 5rem;
+  margin-bottom: 6rem;
+  max-width: 1600px;
+  align-items: center;
+  justify-content: center;
   width: 75%;
 }
-.content {
-  max-width: 1600px;
+.heroContainer {
   display: flex;
   flex-direction: row;
-  align-self: flex-start;
   align-items: center;
-  padding: 10px;
+  align-self: flex-start;
 }
-.hero-title {
+.heroTitle {
   display: flex;
   flex-direction: column;
 }
@@ -71,7 +52,7 @@
 }
 .title {
   margin: 10px 0;
-  font-size: clamp(1rem, 0.7rem + 1.6vw, 2rem);
+  font-size: clamp(1rem, 1rem + 1.6vw, 2rem);
 }
 .line {
   width: 5px;
@@ -105,9 +86,13 @@
 .icon:hover {
   transform: scale(1.2);
 }
-
+@media (min-width: 1000px) and (max-width: 1600px) {
+  .container {
+    background-position: bottom, 80% 100%;
+  }
+}
 @media (min-width: 480px) and (max-width: 999px) {
-  .content {
+  .heroContainer {
     flex-direction: column;
   }
   .line {
@@ -124,13 +109,12 @@
     width: auto;
     margin: 0 20px 0 0;
   }
-}
-
-@media (max-width: 479px) {
-  .wrapper {
-    margin-bottom: 0;
+  .container {
+    background-position: bottom, 80% 110%;
   }
-  .content {
+}
+@media (max-width: 479px) {
+  .heroContainer {
     margin-top: 2rem;
     flex-direction: column;
   }
@@ -147,6 +131,10 @@
     height: 30px;
     width: auto;
     margin: 0 20px 0 0;
+  }
+
+  .container {
+    background-position: bottom, 80% 140%;
   }
 }
 

@@ -39,13 +39,11 @@ const Contact = () => (
           <label htmlFor="message">Message:</label>
           <textarea name="message" id="message" rows="6" placeholder="Hello" />
         </div>
-        <ul className={styles.actions}>
-          <li>
-            <button type="submit" className="special" id={styles.submit}>
-              Send Message
-            </button>
-          </li>
-        </ul>
+        <div className={styles.actions}>
+          <button type="submit" className="special" id={styles.submit}>
+            Send Message
+          </button>
+        </div>
       </form>
     </div>
   </div>

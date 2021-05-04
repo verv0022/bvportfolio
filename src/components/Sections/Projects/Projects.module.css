@@ -3,25 +3,9 @@
   align-items: center;
   justify-content: center;
   background-image: url("../../../images/Backgrounds/bottomwave.svg"),
-    url("../../../images/Backgrounds/topwave.svg"),
-    repeating-linear-gradient(
-      135deg,
-      hsla(35, 0%, 71%, 0.09) 0px,
-      hsla(35, 0%, 71%, 0.09) 1px,
-      transparent 1px,
-      transparent 11px
-    ),
-    repeating-linear-gradient(
-      45deg,
-      hsla(35, 0%, 71%, 0.09) 0px,
-      hsla(35, 0%, 71%, 0.09) 1px,
-      transparent 1px,
-      transparent 11px
-    ),
-    linear-gradient(90deg, hsl(183, 0%, 100%), hsl(183, 0%, 100%));
-  background-repeat: no-repeat, no-repeat, repeat, repeat, repeat;
-  background-color: #f7f7f7;
-  background-position: top, bottom, center, center, center;
+    url("../../../images/Backgrounds/topwave.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-position: top, bottom;
 }
 .content {
   max-width: 1600px;
@@ -29,13 +13,13 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: 14rem 0 16rem 0;
+  margin: 20% 0;
   width: 75%;
   text-align: center;
 }
 .title {
   font-size: clamp(2rem, 1.4rem + 3.2vw, 4rem);
-  margin: 2rem 0 4rem 0;
+  margin-bottom: 6rem;
   text-align: center;
 }
 .card {
@@ -130,29 +114,69 @@
   display: none;
 }
 
-@media (min-width: 599px) and (max-width: 899px) {
-  .content {
-    margin-top: 10rem;
-  }
+@media (min-width: 630px) and (max-width: 799px) {
   .card {
-    width: 500px;
+    width: 550px;
   }
 }
-
-@media (max-width: 600px) {
-  .content {
-    margin-top: 5rem;
+@media (min-width: 380px) and (max-width: 629px) {
+  .card {
+    width: 350px;
   }
   .cardContent {
-    padding: 5px;
+    padding: 20px;
+    align-items: left;
+    text-align: left;
+  }
+  .cardContent {
+    padding: 10px;
     align-items: left;
     text-align: left;
   }
   .cardTitle {
     padding: 10px 0 10px 0;
   }
+  .overlay {
+    display: none;
+  }
+  .icon {
+    height: 30px;
+    margin: 0rem;
+  }
+  .icons {
+    text-decoration: none;
+    color: #fff;
+    margin: 10px;
+  }
+  .mobileIcons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: flex-end;
+  }
+  .iconLabel {
+    display: none;
+  }
+}
+@media (max-width: 379px) {
   .card {
     width: 280px;
+  }
+  .cardContent {
+    padding: 20px;
+    align-items: left;
+    text-align: left;
+  }
+  .title {
+    text-align: left;
+  }
+  .cardContent {
+    padding: 10px;
+    align-items: left;
+    text-align: left;
+  }
+  .cardTitle {
+    padding: 10px 0 10px 0;
   }
   .overlay {
     display: none;
