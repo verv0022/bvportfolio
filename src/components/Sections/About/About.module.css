@@ -1,12 +1,15 @@
 .container {
-  background-color: #19526a;
+  background-color: #0f2f3d;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url("../../../images/Backgrounds/circles.svg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-image: url("../../../images/Backgrounds/topwave3.svg"),
+    url("../../../images/Backgrounds/bottomwave2.svg"),
+    url("../../../images/Backgrounds/circles.svg");
+
+  background-position: top, bottom, center;
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-attachment: scroll, scroll, fixed;
   background-size: 100%;
 }
 .content {
@@ -41,7 +44,6 @@
   font-size: clamp(1rem, 0.85rem + 0.8vw, 1.5rem);
   text-align: left;
   color: #e0e0e0;
-  width: 50%;
 }
 .collegeLink {
   color: #00b1cc;
@@ -64,7 +66,7 @@
 }
 .aboutMeImage {
   max-width: 100%;
-  width: 50%;
+
   height: auto;
   max-height: 400px;
   margin-left: 2rem;
