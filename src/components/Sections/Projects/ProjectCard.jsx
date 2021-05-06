@@ -21,6 +21,7 @@ const ProjectCard = ({
         className={styles.icons}
         target="_blank"
         rel="noopener noreferrer"
+        aria-label="Source"
       >
         <AiOutlineGithub className={styles.icon} />
       </a>
@@ -35,6 +36,7 @@ const ProjectCard = ({
         className={styles.icons}
         target="_blank"
         rel="noopener noreferrer"
+        aria-label="Exampe"
       >
         <IoOpenOutline className={styles.icon} />
       </a>
@@ -49,6 +51,7 @@ const ProjectCard = ({
         className={styles.icons}
         target="_blank"
         rel="noopener noreferrer"
+        aria-label="Slideshow"
       >
         <BiSlideshow className={styles.icon} />
       </a>
