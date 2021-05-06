@@ -1,6 +1,6 @@
 import React from "react"
 import styles from "./About.module.css"
-import aboutMeImage from "../../../images/dev.svg"
+import AboutMeImage from "../../../images/Icons/dev.svg"
 
 const About = () => {
   return (
@@ -33,28 +33,9 @@ const About = () => {
               well as design principles. I then worked with a team on a voice
               assistant for the Canadian Border Service Agency that helps users
               get border rules and regulations hands-free.
-              {/* I've My focus is in front-end
-              development, building pixel-perfect, user-friendly products. From
-              websites to mobile applications */}
             </p>
-            {/* <p>
-                I specialize in front-end development of web and mobile
-                applications. Some recent technologies I've been using are:
-              </p>
-              <ul className={styles.skillList}>
-                <li>JavaScript</li>
-                <li>HTML5</li>
-                <li>CSS3</li>
-                <li>Firebase</li>
-                <li>React</li>
-                <li>Gatsby</li>
-                <li>Graphql</li>
-                <li>Bootstrap 4</li>
-                <li>Nodejs</li>
-              </ul> */}
           </div>
-
-          <img className={styles.aboutMeImage} src={aboutMeImage} alt="logo" />
+          <AboutMeImage className={styles.aboutMeImage} />
         </div>
       </div>
     </div>

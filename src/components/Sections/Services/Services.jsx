@@ -11,7 +11,7 @@ const Services = () => {
       <div className={styles.content}>
         <h1 className={styles.title}>What I have to offer</h1>
         <div className={styles.servicesContainer}>
-          <Tilt tiltMaxAngleX="6" tiltMaxAngleY="6">
+          <Tilt tiltMaxAngleX="10" tiltMaxAngleY="10">
             <section className={styles.service} id={styles.web}>
               <Web alt="Web Development" className={styles.icon} />
               <h2 className={styles.serviceTitle}>Web Development</h2>
@@ -23,7 +23,7 @@ const Services = () => {
               </ul>
             </section>
           </Tilt>
-          <Tilt tiltMaxAngleX="6" tiltMaxAngleY="6">
+          <Tilt tiltMaxAngleX="10" tiltMaxAngleY="10">
             <section className={styles.service} id={styles.mobile}>
               <Mobile alt="Mobile Development" className={styles.icon} />
               <h2 className={styles.serviceTitle}>Mobile Development</h2>
@@ -38,7 +38,7 @@ const Services = () => {
               </ul>
             </section>
           </Tilt>
-          <Tilt tiltMaxAngleX="6" tiltMaxAngleY="6">
+          <Tilt tiltMaxAngleX="10" tiltMaxAngleY="10">
             <section className={styles.service} id={styles.ux}>
               <Ux alt="UX Design" className={styles.icon} />
               <h2 className={styles.serviceTitle}>UX Design</h2>

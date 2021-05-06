@@ -6,6 +6,7 @@
     url("../../../images/Backgrounds/topwave.svg");
   background-repeat: no-repeat, no-repeat;
   background-position: top, bottom;
+  background-size: 100%;
 }
 .content {
   max-width: 1600px;

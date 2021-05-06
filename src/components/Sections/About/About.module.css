@@ -1,12 +1,11 @@
 .container {
-  background-color: #0f2f3d;
+  background-color: #154357;
   display: flex;
   align-items: center;
   justify-content: center;
   background-image: url("../../../images/Backgrounds/topwave3.svg"),
     url("../../../images/Backgrounds/bottomwave2.svg"),
     url("../../../images/Backgrounds/circles.svg");
-
   background-position: top, bottom, center;
   background-repeat: no-repeat, no-repeat, no-repeat;
   background-attachment: scroll, scroll, fixed;
@@ -18,7 +17,7 @@
   align-items: center;
   justify-content: center;
   width: 75%;
-  margin: 5% 0;
+  margin: 10% 0;
   max-width: 1600px;
 }
 .title {
@@ -31,10 +30,6 @@
   display: flex;
   flex-direction: row;
   align-items: flex-end;
-  /* background-image: linear-gradient(to bottom right, #090c14f5, #0d131f15);
-  backdrop-filter: blur(4px);
-   */
-
   border-radius: 20px;
   padding: 3rem;
   min-width: 100%;
@@ -44,6 +39,7 @@
   font-size: clamp(1rem, 0.85rem + 0.8vw, 1.5rem);
   text-align: left;
   color: #e0e0e0;
+  width: 60%;
 }
 .collegeLink {
   color: #00b1cc;
@@ -66,10 +62,10 @@
 }
 .aboutMeImage {
   max-width: 100%;
-
   height: auto;
   max-height: 400px;
-  margin-left: 2rem;
+  margin-left: 4rem;
+  width: 40%;
 }
 .skillList {
   display: grid;

@@ -2,7 +2,7 @@ import React from "react"
 import Headroom from "react-headroom"
 import AnchorLink from "react-anchor-link-smooth-scroll"
 import styles from "./Header.module.css"
-import logo from "../../images/Logos/bv-logo-light.png"
+import logo from "../../images/Logos/bv-logo-light.svg"
 import { Spin as Hamburger } from "hamburger-react"
 
 const Header = props => {

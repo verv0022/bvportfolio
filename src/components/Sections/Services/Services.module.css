@@ -2,11 +2,14 @@
   display: flex;
   align-items: flex-start;
   justify-content: center;
-  background-color: #19526a;
-  background-image: url("../../../images/Backgrounds/circles.svg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-color: #154357;
+  background-image: url("../../../images/Backgrounds/topwave3.svg"),
+    url("../../../images/Backgrounds/bottomwave2.svg"),
+    url("../../../images/Backgrounds/circles.svg");
+  background-position: top, bottom, center;
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-attachment: scroll, scroll, fixed;
+  background-size: 100%;
 }
 .content {
   max-width: 1600px;
@@ -15,7 +18,7 @@
   align-items: center;
   justify-content: center;
   width: 75%;
-  margin: 5% 0;
+  margin: 10% 0;
   text-align: center;
 }
 .title {
