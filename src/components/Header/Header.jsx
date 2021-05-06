@@ -24,7 +24,13 @@ const Header = props => {
       className={styles.headerWrapper}
     >
       <AnchorLink href="#landingSection" offset="0">
-        <img className={styles.logo} src={logo} alt="logo" />
+        <img
+          className={styles.logo}
+          src={logo}
+          height="60px"
+          width="100%"
+          alt="logo"
+        />
       </AnchorLink>
       <div className={styles.navigation}>
         <AnchorLink

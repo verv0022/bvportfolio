@@ -19,21 +19,21 @@ const Footer = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Pdf alt="Resume" className={styles.icon} />
+            <Pdf alt="Resume" className={styles.icon} aria-label="Resume" />
           </a>
           <a
             href={`https://github.com/verv0022`}
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Github alt="Github" className={styles.icon} />
+            <Github alt="Github" className={styles.icon} aria-label="Github" />
           </a>
           <a
             href={`https://www.linkedin.com/in/brandonwv/`}
             target="_blank"
             rel="noopener noreferrer"
           >
-            <LinkedIn alt="LinkedIn" className={styles.icon} />
+            <LinkedIn className={styles.icon} aria-label="LinkedIn" />
           </a>
         </div>
       </div>

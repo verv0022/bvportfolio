@@ -18,6 +18,8 @@
 .logo {
   height: 60px;
   width: auto;
+  margin: 4px;
+  aspect-ratio: attr(width) / attr(height);
 }
 
 @media (min-width: 899px) {
