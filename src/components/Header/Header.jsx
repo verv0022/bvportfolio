@@ -28,7 +28,7 @@ const Header = props => {
           className={styles.logo}
           src={logo}
           height="60px"
-          width="100%"
+          width="60"
           alt="logo"
         />
       </AnchorLink>

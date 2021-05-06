@@ -66,16 +66,16 @@ const ProjectCard = ({
           <h1 className={styles.cardTitle}>{name}</h1>
           <p className={styles.cardDescription}>{description}</p>
           <div className={styles.mobileIcons}>
-            {example ? <ExampleIcon /> : null}
-            {source ? <SourceIcon /> : null}
-            {slideshow ? <SlideshowIcon /> : null}
+            {example ? <ExampleIcon aria-label="Exampe" /> : null}
+            {source ? <SourceIcon aria-label="Source" /> : null}
+            {slideshow ? <SlideshowIcon aria-label="Slideshow" /> : null}
           </div>
         </div>
         <div className={styles.overlay}>
           <div className={styles.overlayContent}>
-            {example ? <ExampleIcon /> : null}
-            {source ? <SourceIcon /> : null}
-            {slideshow ? <SlideshowIcon /> : null}
+            {example ? <ExampleIcon aria-label="Example" /> : null}
+            {source ? <SourceIcon aria-label="Source" /> : null}
+            {slideshow ? <SlideshowIcon aria-label="Slideshow" /> : null}
           </div>
         </div>
       </div>
