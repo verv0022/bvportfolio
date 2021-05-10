@@ -4,14 +4,10 @@ import styles from "./Landing.module.css"
 import Pdf from "../../../images/Icons/pdf.svg"
 import Github from "../../../images/Icons/github.svg"
 import LinkedIn from "../../../images/Icons/linkedin.svg"
-import wave from "../../../images/Backgrounds/topwave.svg"
-import sun from "../../../images/Backgrounds/sun.svg"
 
 const Landing = () => {
   return (
     <Div100vh className={styles.container} id="landingSection">
-      {/* <img src={wave} className={styles.wave} />
-      <img src={sun} className={styles.sun} /> */}
       <div className={styles.content}>
         <div className={styles.heroContainer}>
           <div className={styles.heroTitle}>

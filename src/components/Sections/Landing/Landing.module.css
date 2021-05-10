@@ -135,9 +135,22 @@
   }
 
   .container {
+    justify-content: center;
     background-image: url("../../../images/Backgrounds/topwave.svg"),
       url("../../../images/Backgrounds/sun2.svg"),
-      linear-gradient(hsl(197, 71%, 73%), hsl(0, 0%, 100%));
+      repeating-linear-gradient(
+        45deg,
+        rgba(194, 194, 194, 0.1) 0px,
+        rgba(194, 194, 194, 0.1) 2px,
+        transparent 2px,
+        transparent 4px
+      ),
+      linear-gradient(
+        90deg,
+        rgb(255, 255, 255),
+        rgb(255, 255, 255),
+        rgb(255, 255, 255)
+      );
     background-position: bottom, 80% 115%;
   }
 }
