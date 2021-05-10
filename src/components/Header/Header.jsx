@@ -10,7 +10,7 @@ const Header = props => {
     <Headroom
       wrapperStyle={{ position: "fixed", zIndex: "100" }}
       style={{
-        background: "#hsl(0, 0%, 8%)",
+        background: "hsl(0, 0%, 8%)",
         boxShadow: "1px 1px 1px hsla(0, 0%, 0%, 0.25)",
         margin: "0",
         padding: "1rem",
