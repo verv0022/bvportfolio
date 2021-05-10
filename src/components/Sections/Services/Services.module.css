@@ -18,13 +18,13 @@
   align-items: center;
   justify-content: center;
   width: 75%;
-  margin: 10% 0;
   text-align: center;
+  margin: 10rem 0 10rem 0;
 }
 .title {
   font-size: clamp(2rem, 1.4rem + 3.2vw, 4rem);
   color: #f7f7f7;
-  margin-bottom: 6rem;
+  margin-bottom: 4rem;
 }
 .servicesContainer {
   display: flex;
@@ -69,6 +69,7 @@
 }
 .icon {
   height: 80px;
+  fill: #52b9bf;
 }
 
 @media (min-width: 1050px) and (max-width: 1300px) {
@@ -102,8 +103,29 @@
     padding: 20px;
   }
 }
-@media (max-width: 400px) {
+
+@media (max-width: 399px) {
+  .content {
+    margin: 6em 0 6rem 0;
+  }
   .title {
+    margin-bottom: 4rem;
     text-align: left;
+  }
+}
+@media (min-width: 400px) and (max-width: 899px) {
+  .content {
+    margin: 6rem 0 6rem 0;
+  }
+  .title {
+    margin-bottom: 4rem;
+  }
+}
+@media (min-width: 900px) and (max-width: 1300px) {
+  .content {
+    margin: 8rem 0 8rem 0;
+  }
+  .title {
+    margin-bottom: 4rem;
   }
 }

@@ -17,14 +17,14 @@
   align-items: center;
   justify-content: center;
   width: 75%;
-  margin: 10% 0;
   max-width: 1600px;
+  margin: 10rem 0 10rem 0;
 }
 .title {
   align-self: flex-start;
   font-size: clamp(2rem, 1.4rem + 3.2vw, 4rem);
-  margin: 0 auto 2rem auto;
   color: #e0e0e0;
+  margin-bottom: 4rem;
 }
 .aboutMeContainer {
   display: flex;
@@ -106,7 +106,7 @@
   }
   .aboutMeImage {
     margin: 2rem 6rem;
-    width: auto;
+    width: 100%;
   }
   .skillList {
     display: grid;
@@ -114,5 +114,31 @@
     padding: 0;
     list-style: none;
     margin-top: 2rem;
+  }
+}
+
+@media (max-width: 399px) {
+  .content {
+    margin: 6em 0 6rem 0;
+  }
+  .title {
+    margin-bottom: 4rem;
+    text-align: left;
+  }
+}
+@media (min-width: 400px) and (max-width: 899px) {
+  .content {
+    margin: 6rem 0 6rem 0;
+  }
+  .title {
+    margin-bottom: 4rem;
+  }
+}
+@media (min-width: 900px) and (max-width: 1300px) {
+  .content {
+    margin: 8rem 0 8rem 0;
+  }
+  .title {
+    margin-bottom: 4rem;
   }
 }

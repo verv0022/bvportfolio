@@ -14,14 +14,14 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: 20% 0;
   width: 75%;
   text-align: center;
+  margin: 20rem 0 20rem 0;
 }
 .title {
   font-size: clamp(2rem, 1.4rem + 3.2vw, 4rem);
-  margin-bottom: 6rem;
   text-align: center;
+  margin-bottom: 6rem;
 }
 .card {
   position: relative;
@@ -94,7 +94,6 @@
   font-size: clamp(1rem, 0.85rem + 0.8vw, 1.5rem);
 }
 .imageContainer {
-  border-radius: 10px;
   overflow: hidden;
 }
 .icon {
@@ -160,6 +159,9 @@
   }
 }
 @media (max-width: 379px) {
+  .title {
+    text-align: left;
+  }
   .card {
     width: 280px;
   }
@@ -168,9 +170,7 @@
     align-items: left;
     text-align: left;
   }
-  .title {
-    text-align: left;
-  }
+
   .cardContent {
     padding: 10px;
     align-items: left;
@@ -199,5 +199,31 @@
   }
   .iconLabel {
     display: none;
+  }
+}
+
+@media (max-width: 399px) {
+  .content {
+    margin: 6em 0 6rem 0;
+  }
+  .title {
+    margin-bottom: 4rem;
+    text-align: left;
+  }
+}
+@media (min-width: 400px) and (max-width: 899px) {
+  .content {
+    margin: 10rem 0 10rem 0;
+  }
+  .title {
+    margin-bottom: 4rem;
+  }
+}
+@media (min-width: 900px) and (max-width: 1300px) {
+  .content {
+    margin: 16rem 0 16rem 0;
+  }
+  .title {
+    margin-bottom: 6rem;
   }
 }
