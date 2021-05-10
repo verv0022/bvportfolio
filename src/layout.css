@@ -19,30 +19,6 @@ p,
 li {
   font-family: "Roboto", Helvetica, Arial, Lucida, sans-serif;
 }
-/* .hamburger-react {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  justify-content: space-around;
-  height: 30px;
-  width: 36px;
-  background: transparent;
-  border: none;
-  cursor: pointer;
-  padding: 0;
-  z-index: 4;
-  margin-left: auto;
-}
-.hamburger:focus {
-  outline: none;
-}
-@media (min-width: 899px) {
-  .hamburger-react {
-    display: none;
-  }
-} */
-
 .nav-link {
   background: linear-gradient(to bottom, 0%, 100%);
   background-position: 0 100%;
@@ -61,13 +37,13 @@ li {
   background-size: auto 6px;
   background-repeat: repeat-x;
   text-decoration: none;
-  color: #009fb8;
+  color: hsl(188, 100%, 36%);
 }
 .light {
-  color: #f7f7f7;
+  color: hsl(0, 0%, 97%);
 }
 .dark {
-  color: #000;
+  color: hsl(0, 0%, 0%);
 }
 
 @media (min-width: 600px) and (max-width: 899px) {

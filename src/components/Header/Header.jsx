@@ -10,8 +10,8 @@ const Header = props => {
     <Headroom
       wrapperStyle={{ position: "fixed", zIndex: "100" }}
       style={{
-        background: "#141414",
-        boxShadow: "1px 1px 1px rgba(0,0,0,0.25)",
+        background: "#hsl(0, 0%, 8%)",
+        boxShadow: "1px 1px 1px hsla(0, 0%, 0%, 0.25)",
         margin: "0",
         padding: "1rem",
         display: "flex",
@@ -62,7 +62,7 @@ const Header = props => {
         className={styles.hamburgerReact}
         toggle={props.toggle}
         toggled={props.isSidebarOpen}
-        color="#f7f7f7"
+        color="hsl(0, 0%, 97%)"
         label="Show sidebar"
         rounded
       />

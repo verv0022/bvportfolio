@@ -3,10 +3,23 @@
   align-items: center;
   justify-content: center;
   background-image: url("../../../images/Backgrounds/topwave.svg"),
-    url("../../../images/Backgrounds/sun.svg"), linear-gradient(skyblue, white);
-  background-repeat: no-repeat, no-repeat, no-repeat;
-  background-position: bottom, 90% 100%, center;
-  background-attachment: scroll, fixed, scroll;
+    url("../../../images/Backgrounds/sun.svg"),
+    repeating-linear-gradient(
+      45deg,
+      rgba(194, 194, 194, 0.1) 0px,
+      rgba(194, 194, 194, 0.1) 2px,
+      transparent 2px,
+      transparent 4px
+    ),
+    linear-gradient(
+      90deg,
+      rgb(255, 255, 255),
+      rgb(255, 255, 255),
+      rgb(255, 255, 255)
+    );
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+  background-position: bottom, 90% 100%, center, center;
+  background-attachment: scroll, fixed, scroll, scroll;
 }
 .content {
   display: flex;
@@ -32,7 +45,7 @@
 }
 .name {
   font-size: clamp(2rem, 0.8rem + 6.4vw, 6rem);
-  color: #384556;
+  color: hsl(214, 21%, 28%);
 }
 .title {
   margin: 10px 0;
@@ -42,7 +55,7 @@
   width: 5px;
   height: 300px;
   border-radius: 10px;
-  background: #000;
+  background: hsl(0, 0%, 8%);
   margin: 5rem;
   animation-name: lineAnimation;
   animation-duration: 0.5s;
@@ -57,7 +70,7 @@
   margin: 0 0 2rem 0;
   height: 50px;
   width: auto;
-  color: black;
+  color: hsl(0, 0%, 8%);
 }
 .icons {
   animation: bounceInLeft 0.5s;
@@ -123,7 +136,7 @@
   .container {
     background-image: url("../../../images/Backgrounds/topwave.svg"),
       url("../../../images/Backgrounds/sun2.svg"),
-      linear-gradient(skyblue, white);
+      linear-gradient(hsl(197, 71%, 73%), hsl(0, 0%, 100%));
     background-position: bottom, 80% 115%;
   }
 }
