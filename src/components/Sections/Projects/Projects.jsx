@@ -2,6 +2,8 @@ import React from "react"
 import styles from "./Projects.module.css"
 import ProjectCard from "./ProjectCard"
 import { graphql, useStaticQuery } from "gatsby"
+import bottomWave from "../../../images/Backgrounds/bottomwave.svg"
+import topWave from "../../../images/Backgrounds/topwave.svg"
 
 const Projects = () => {
   const data = useStaticQuery(graphql`
@@ -30,9 +32,10 @@ const Projects = () => {
   const projects = data.allProjectsJson.edges
   return (
     <div className={styles.container} id="projectsSection">
+      <img src={bottomWave} className={styles.bottomWave} alt="wave" />
+      <img src={topWave} className={styles.topWave} alt="wave" />
       <div className={styles.content}>
         <h1 className={styles.title}>Some projects I've worked on</h1>
-
         {projects.map(({ node: project }) => {
           return (
             <ProjectCard

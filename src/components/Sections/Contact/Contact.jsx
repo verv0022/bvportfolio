@@ -1,9 +1,11 @@
 import React from "react"
 import styles from "./Contact.module.css"
 import ContactMe from "../../../images/Icons/contactme.svg"
+import bottomWave from "../../../images/Backgrounds/bottomwave.svg"
 
 const Contact = () => (
   <div className={styles.container} id="contactSection">
+    <img src={bottomWave} className={styles.bottomWave} alt="wave" />
     <div className={styles.content}>
       <div className={styles.contactContainer}>
         <div className={styles.imageContainer}>

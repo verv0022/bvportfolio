@@ -97,3 +97,89 @@ li {
     transition-duration: 0.001ms !important;
   }
 }
+/* .parallax-inner {
+  z-index: -3;
+} */
+.bubble {
+  position: absolute;
+  z-index: -2;
+}
+.right1 {
+  top: 12%;
+  right: 1%;
+}
+.right2 {
+  top: 40%;
+  right: 3%;
+}
+.right3 {
+  bottom: 1%;
+  right: 6%;
+}
+.center1 {
+  top: 5%;
+}
+.center2 {
+  bottom: 0;
+  left: 30%;
+}
+.left1 {
+  top: 55%;
+  left: 1%;
+}
+.left2 {
+  top: 20%;
+  left: 5%;
+}
+.left3 {
+  bottom: 10%;
+  left: 2%;
+}
+/* .right1 {
+  right: 20px;
+  top: 10%;
+}
+.right2 {
+  right: 50px;
+  top: 50%;
+}
+.right3 {
+  right: 50px;
+  top: 70%;
+}
+.right4 {
+  right: 8%;
+  bottom: 10%;
+}
+.left1 {
+  left: 20px;
+  top: 10%;
+}
+.left2 {
+  left: 30px;
+}
+.left3 {
+  left: 80px;
+}
+.center1 {
+  top: 10%;
+  right: 40%;
+}
+.center2 {
+  top: 5%;
+  right: 20%;
+} */
+@media (min-width: 400px) and (max-width: 899px) {
+  .right1 {
+    right: 20px;
+    top: 30%;
+    z-index: -2;
+  }
+}
+@media (min-width: 900px) and (max-width: 1300px) {
+  .right1 {
+    right: 20px;
+    top: 20%;
+    z-index: -2;
+  }
+}

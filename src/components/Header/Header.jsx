@@ -51,6 +51,13 @@ const Header = props => {
           Work
         </AnchorLink>
         <AnchorLink
+          href="#servicesSection"
+          offset="0"
+          className="nav-link light"
+        >
+          Services
+        </AnchorLink>
+        <AnchorLink
           href="#contactSection"
           offset="0"
           className="nav-link light"

@@ -3,13 +3,24 @@
   align-items: flex-start;
   justify-content: center;
   background-color: hsl(198, 61%, 21%);
-  background-image: url("../../../images/Backgrounds/topwave3.svg"),
+  /* background-image: url("../../../images/Backgrounds/topwave.svg"),
     url("../../../images/Backgrounds/bottomwave2.svg"),
     url("../../../images/Backgrounds/circles.svg");
   background-position: top, bottom, center;
   background-repeat: no-repeat, no-repeat, no-repeat;
-  background-attachment: scroll, scroll, fixed;
+  background-attachment: scroll, scroll, fixed; */
   background-size: 100%;
+  position: relative;
+}
+.smallTopWave {
+  position: absolute;
+  top: 0;
+  z-index: 3;
+}
+.smallBottomWave {
+  position: absolute;
+  bottom: 0;
+  z-index: 3;
 }
 .content {
   max-width: 1600px;
@@ -20,6 +31,7 @@
   width: 75%;
   text-align: center;
   margin: 10rem 0 10rem 0;
+  z-index: 1;
 }
 .title {
   font-size: clamp(2rem, 1.4rem + 3.2vw, 4rem);

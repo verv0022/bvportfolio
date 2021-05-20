@@ -2,8 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url("../../../images/Backgrounds/topwave.svg"),
-    url("../../../images/Backgrounds/sun.svg"),
+  background-image: url("../../../images/Backgrounds/sun.svg"),
     repeating-linear-gradient(
       45deg,
       rgba(194, 194, 194, 0.1) 0px,
@@ -17,9 +16,9 @@
       rgb(255, 255, 255),
       rgb(255, 255, 255)
     );
-  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
-  background-position: bottom, 90% 100%, center, center;
-  background-attachment: scroll, fixed, scroll, scroll;
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: 90% 100%, center, center;
+  background-attachment: fixed, scroll, scroll;
 }
 .content {
   display: flex;
@@ -86,7 +85,7 @@
 }
 @media (min-width: 1000px) and (max-width: 1600px) {
   .container {
-    background-position: bottom, 90% 120%, center;
+    background-position: 90% 120%, center;
   }
   .line {
     margin: 3rem;
@@ -111,7 +110,7 @@
     margin: 0 20px 0 0;
   }
   .container {
-    background-position: bottom, 90% 140%, center;
+    background-position: 90% 140%, center;
   }
 }
 @media (max-width: 479px) {
@@ -133,7 +132,6 @@
     width: auto;
     margin: 0 20px 0 0;
   }
-
   .container {
     justify-content: center;
     background-image: url("../../../images/Backgrounds/topwave.svg"),
@@ -151,7 +149,7 @@
         rgb(255, 255, 255),
         rgb(255, 255, 255)
       );
-    background-position: bottom, 80% 115%;
+    background-position: 80% 115%;
   }
 }
 
@@ -195,4 +193,10 @@
   to {
     transform: translate3d(0, 0, 0);
   }
+}
+
+.topwave {
+  position: absolute;
+  bottom: 0;
+  z-index: 3;
 }

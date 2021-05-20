@@ -9,11 +9,10 @@
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    id="visual"
    viewBox="0 0 900 600"
-   width="900"
-   height="600"
    version="1.1"
    sodipodi:docname="bottomwave2.svg"
-   inkscape:version="1.0.2 (e86c8708, 2021-01-15)">
+   inkscape:version="1.0.2 (e86c8708, 2021-01-15)"
+   preserveAspectRatio="none">
   <metadata
      id="metadata8587">
     <rdf:RDF>

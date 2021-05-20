@@ -3,13 +3,25 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url("../../../images/Backgrounds/topwave3.svg"),
-    url("../../../images/Backgrounds/bottomwave2.svg"),
-    url("../../../images/Backgrounds/circles.svg");
-  background-position: top, bottom, center;
-  background-repeat: no-repeat, no-repeat, no-repeat;
-  background-attachment: scroll, scroll, fixed;
+  /* background-image: url("../../../images/Backgrounds/topwave2.svg"),
+    url("../../../images/Backgrounds/bottomwave2.svg");
+  background-position: top, bottom;
+  background-repeat: no-repeat, no-repeat;
+  background-attachment: scroll, scroll;
   background-size: 100%;
+  position: relative; */
+  background-size: 100%;
+  position: relative;
+}
+.smallTopWave {
+  position: absolute;
+  top: 0;
+  z-index: 3;
+}
+.smallBottomWave {
+  position: absolute;
+  bottom: 0;
+  z-index: 3;
 }
 .content {
   display: flex;
@@ -18,7 +30,8 @@
   justify-content: center;
   width: 75%;
   max-width: 1600px;
-  margin: 10rem 0 10rem 0;
+  margin: 8rem 0 8rem 0;
+  z-index: 1;
 }
 .title {
   align-self: flex-start;
@@ -40,6 +53,7 @@
   text-align: left;
   color: hsl(0, 0%, 97%);
   width: 60%;
+  backdrop-filter: blur(2px);
 }
 .collegeLink {
   color: #00b1cc;
@@ -116,7 +130,15 @@
     margin-top: 2rem;
   }
 }
-
+@media (max-width: 1000px) {
+  .aboutMeContainer {
+    background-image: linear-gradient(
+      to bottom right,
+      hsl(200, 60%, 6%),
+      hsla(200, 60%, 6%, 0.747)
+    );
+  }
+}
 @media (max-width: 399px) {
   .content {
     margin: 6em 0 6rem 0;

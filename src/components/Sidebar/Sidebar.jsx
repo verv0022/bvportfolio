@@ -41,7 +41,15 @@ const Sidebar = props => {
             Work
           </AnchorLink>
         </li>
-
+        <li>
+          <AnchorLink
+            href="#servicesSection"
+            offset="0"
+            className="nav-link dark"
+          >
+            Services
+          </AnchorLink>
+        </li>
         <li>
           <AnchorLink
             href="#contactSection"
