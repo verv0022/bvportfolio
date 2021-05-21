@@ -33,13 +33,13 @@ const About = () => {
         <Parallax className="bubble center2" y={[-80, 100]} x={[-10, 10]}>
           <BubbleSmall />
         </Parallax>
-        <Parallax className="bubble left1" y={[-250, 250]} x={[10, -10]}>
+        <Parallax className="bubble left1" y={[-300, 300]} x={[10, -10]}>
           <BubbleMedium />
         </Parallax>
-        <Parallax className="bubble left2" y={[-200, 200]}>
+        <Parallax className="bubble left2" y={[-250, 250]}>
           <BubbleSmall />
         </Parallax>
-        <Parallax className="bubble left3" y={[-150, 150]} x={[-10, 30]}>
+        <Parallax className="bubble left3" y={[-200, 200]} x={[-10, 30]}>
           <BubbleBig />
         </Parallax>
         <div className={styles.aboutMeContainer}>
