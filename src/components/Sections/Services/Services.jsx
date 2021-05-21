@@ -30,7 +30,7 @@ const Services = () => {
         <Parallax className="bubble right3" y={[-100, 100]} x={[10, -50]}>
           <BubbleMedium />
         </Parallax>
-        <Parallax className="bubble center2" y={[-80, 200]} x={[-10, 10]}>
+        <Parallax className="bubble center2" y={[-80, 100]} x={[-10, 10]}>
           <BubbleSmall />
         </Parallax>
         <Parallax className="bubble left1" y={[-250, 250]} x={[10, -10]}>

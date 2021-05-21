@@ -19,6 +19,7 @@
   background-repeat: no-repeat, no-repeat, no-repeat;
   background-position: 90% 100%, center, center;
   background-attachment: fixed, scroll, scroll;
+  overflow: hidden;
 }
 .content {
   display: flex;

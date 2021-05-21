@@ -97,15 +97,12 @@ li {
     transition-duration: 0.001ms !important;
   }
 }
-/* .parallax-inner {
-  z-index: -3;
-} */
 .bubble {
   position: absolute;
   z-index: -2;
 }
 .right1 {
-  top: 12%;
+  top: 20%;
   right: 1%;
 }
 .right2 {
@@ -113,7 +110,7 @@ li {
   right: 3%;
 }
 .right3 {
-  bottom: 1%;
+  bottom: 0;
   right: 6%;
 }
 .center1 {
@@ -133,7 +130,7 @@ li {
 }
 .left3 {
   bottom: 10%;
-  left: 2%;
+  left: 3%;
 }
 /* .right1 {
   right: 20px;

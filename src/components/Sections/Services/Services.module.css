@@ -3,14 +3,9 @@
   align-items: flex-start;
   justify-content: center;
   background-color: hsl(198, 61%, 21%);
-  /* background-image: url("../../../images/Backgrounds/topwave.svg"),
-    url("../../../images/Backgrounds/bottomwave2.svg"),
-    url("../../../images/Backgrounds/circles.svg");
-  background-position: top, bottom, center;
-  background-repeat: no-repeat, no-repeat, no-repeat;
-  background-attachment: scroll, scroll, fixed; */
   background-size: 100%;
   position: relative;
+  overflow: hidden;
 }
 .smallTopWave {
   position: absolute;
