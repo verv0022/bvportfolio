@@ -1,0 +1,36 @@
+[
+  {
+    "name": "RCR Website",
+    "description": "A simple static website for a local renovation company.",
+    "image": "./images/rcr.jpg",
+    "example": "https://rightchoicerenos.netlify.app/"
+  },
+  {
+    "name": "CBSA Helper",
+    "image": "./images/cbsa.jpg",
+    "description": "An Alexa/Google voice-assistant that help users get information on Canadian border rules and regulations hands free.",
+    "source": "https://github.com/verv0022/CBSA-Helper",
+    "example": "https://bot.dialogflow.com/96a34494-a331-4f68-807a-43f956ea865e"
+  },
+  {
+    "name": "Restaurant Finder",
+    "image": "./images/yelp.jpg",
+    "description": "A simple mobile application used to find restaurants nearby using yelp's fusion api.",
+    "source": "https://github.com/verv0022/yelp-restaurant-finder",
+    "example": "https://snack.expo.io/@zer0day/yelp-restaurant-finder"
+  },
+  {
+    "name": "Care Connect",
+    "image": "./images/careconnect.jpg",
+    "description": "A design for an application used to help find caregivers",
+    "slideshow": "https://drive.google.com/file/d/1TsO60tQRRW-wQEBH_s1y4gGOMdmZZkOe/view?usp=sharing",
+    "example": "https://xd.adobe.com/view/be0f2bcb-6e9d-4165-554b-ca28da66a747-c83e/"
+  },
+  {
+    "name": "Firebase Journal",
+    "image": "./images/crud.jpg",
+    "description": "A sample CRUD React app website that uses firebase to store data.",
+    "source": "https://github.com/verv0022/react-firebase-journal",
+    "example": "https://verv0022.github.io/react-firebase-journal/"
+  }
+]

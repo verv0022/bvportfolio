@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "SSP-Bold";
+  src: url("./SourceSansPro-Bold.ttf");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Public-Sans-Bold";
+  src: url("./PublicSans-Bold.ttf");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Righteous";
+  src: url("./LeagueSpartan-Bold.otf");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("./Roboto-Regular.ttf");
+  font-display: swap;
+}

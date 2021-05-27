@@ -1,0 +1,161 @@
+.container {
+  background-color: hsl(198, 61%, 21%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.smallTopWave {
+  position: absolute;
+  top: 0;
+  z-index: 1;
+}
+.smallBottomWave {
+  position: absolute;
+  bottom: 0;
+  z-index: 1;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 75%;
+  max-width: 1600px;
+  margin: 8rem 0 8rem 0;
+}
+.title {
+  align-self: flex-start;
+  font-size: clamp(2rem, 1.4rem + 3.2vw, 4rem);
+  color: hsl(0, 0%, 97%);
+  margin-bottom: 4rem;
+}
+.aboutMeContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  border-radius: 20px;
+  padding: 3rem;
+  min-width: 100%;
+  max-width: 1600px;
+  z-index: 2;
+}
+.aboutMeText {
+  font-size: clamp(1rem, 0.85rem + 0.8vw, 1.5rem);
+  text-align: left;
+  color: hsl(0, 0%, 97%);
+  width: 60%;
+
+  /* backdrop-filter: blur(2px); */
+}
+.collegeLink {
+  color: #00b1cc;
+  background: linear-gradient(
+    to bottom,
+    var(--mainColor) 0%,
+    var(--mainColor) 100%
+  );
+  background-position: 0 100%;
+  background-repeat: repeat-x;
+  background-size: 3px 3px;
+}
+.collegeLink:hover {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23009FB8' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+  background-position: 0 100%;
+  background-size: auto 6px;
+  background-repeat: repeat-x;
+  text-decoration: none;
+  font-weight: bolder;
+}
+.aboutMeImage {
+  max-width: 100%;
+  height: auto;
+  max-height: 400px;
+  margin-left: 4rem;
+  width: 40%;
+}
+.skillList {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(140px, 200px));
+  padding: 0;
+  list-style: none;
+  margin-top: 2rem;
+}
+.skillList > li {
+  padding: 3px;
+}
+.aboutMeText > p {
+  white-space: pre-line;
+}
+@media (min-width: 600px) and (max-width: 1300px) {
+  .aboutMeContainer {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .aboutMeText {
+    width: 100%;
+  }
+  .aboutMeImage {
+    margin: 4rem 6rem 0rem 6rem;
+    width: 100%;
+  }
+}
+@media (max-width: 699px) {
+  .aboutMeContainer {
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+  }
+  .aboutMeText {
+    margin-right: 0;
+    width: 100%;
+  }
+  .aboutMeImage {
+    margin: 2rem 6rem;
+    width: 100%;
+  }
+  .skillList {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(140px, 200px));
+    padding: 0;
+    list-style: none;
+    margin-top: 2rem;
+  }
+}
+@media (max-width: 1000px) {
+  .aboutMeContainer {
+    background-image: linear-gradient(
+      to bottom right,
+      hsla(0, 0%, 100%, 0.4),
+      hsla(0, 0%, 100%, 0.1)
+    );
+  }
+}
+@media (max-width: 399px) {
+  .content {
+    margin: 6em 0 6rem 0;
+  }
+  .title {
+    margin-bottom: 4rem;
+    text-align: left;
+  }
+}
+@media (min-width: 400px) and (max-width: 899px) {
+  .content {
+    margin: 6rem 0 6rem 0;
+  }
+  .title {
+    margin-bottom: 4rem;
+  }
+}
+@media (min-width: 900px) and (max-width: 1300px) {
+  .content {
+    margin: 8rem 0 8rem 0;
+  }
+  .title {
+    margin-bottom: 4rem;
+  }
+}
