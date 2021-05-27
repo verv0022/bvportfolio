@@ -3,6 +3,7 @@ module.exports = {
     title: `Brandon Vervoort`,
     description: `My portfolio created with gatsbyjs`,
     author: `brandon.w.vervoort@gmail.com`,
+    image: ` src/images/Logos/bv-logo-light.svg`,
   },
   plugins: [
     `gatsby-transformer-sharp`,
