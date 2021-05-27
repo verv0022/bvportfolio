@@ -23,8 +23,8 @@ module.exports = {
         name: `gatsby-starter-default`,
         short_name: `starter`,
         start_url: `/`,
-        background_color: `hsl(0, 0%, 97%)`,
-        theme_color: `hsl(188, 100%, 36%)`,
+        background_color: `#f7f7f7)`,
+        theme_color: `#009fb8`,
         display: `minimal-ui`,
         icon: `src/images/Logos/bv-logo-light.svg`, // This path is relative to the root of the site.
       },
