@@ -99,7 +99,6 @@ li {
 }
 .bubble {
   position: absolute;
-  z-index: -2;
 }
 .right1 {
   top: 20%;

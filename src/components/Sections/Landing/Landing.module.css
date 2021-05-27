@@ -17,9 +17,14 @@
       rgb(255, 255, 255)
     );
   background-repeat: no-repeat, no-repeat, no-repeat;
-  background-position: 90% 100%, center, center;
+  background-position: 90% 110%, center, center;
   background-attachment: fixed, scroll, scroll;
   overflow: hidden;
+}
+.topwave {
+  position: absolute;
+  bottom: 0;
+  z-index: 3;
 }
 .content {
   display: flex;
@@ -84,9 +89,10 @@
 .icon:hover {
   transform: scale(1.2);
 }
+
 @media (min-width: 1000px) and (max-width: 1600px) {
   .container {
-    background-position: 90% 120%, center;
+    background-position: 90% 130%, center;
   }
   .line {
     margin: 3rem;
@@ -111,7 +117,7 @@
     margin: 0 20px 0 0;
   }
   .container {
-    background-position: 90% 140%, center;
+    background-position: 90% 130%, center;
   }
 }
 @media (max-width: 479px) {
@@ -194,10 +200,4 @@
   to {
     transform: translate3d(0, 0, 0);
   }
-}
-
-.topwave {
-  position: absolute;
-  bottom: 0;
-  z-index: 3;
 }

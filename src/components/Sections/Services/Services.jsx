@@ -21,7 +21,7 @@ const Services = () => {
         alt="wave"
       />
       <div className={styles.content}>
-        <Parallax className="bubble right1" y={[-200, 200]} x={[-5, 5]}>
+        <Parallax className="bubble right1" y={[-300, 400]} x={[-5, 5]}>
           <BubbleBig />
         </Parallax>
         <Parallax className="bubble right2" y={[-250, 450]} x={[10, -50]}>

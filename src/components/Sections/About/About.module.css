@@ -10,12 +10,12 @@
 .smallTopWave {
   position: absolute;
   top: 0;
-  z-index: 3;
+  z-index: 1;
 }
 .smallBottomWave {
   position: absolute;
   bottom: 0;
-  z-index: 3;
+  z-index: 1;
 }
 .content {
   display: flex;
@@ -25,7 +25,6 @@
   width: 75%;
   max-width: 1600px;
   margin: 8rem 0 8rem 0;
-  z-index: 1;
 }
 .title {
   align-self: flex-start;
@@ -41,13 +40,15 @@
   padding: 3rem;
   min-width: 100%;
   max-width: 1600px;
+  z-index: 2;
 }
 .aboutMeText {
   font-size: clamp(1rem, 0.85rem + 0.8vw, 1.5rem);
   text-align: left;
   color: hsl(0, 0%, 97%);
   width: 60%;
-  backdrop-filter: blur(2px);
+
+  /* backdrop-filter: blur(2px); */
 }
 .collegeLink {
   color: #00b1cc;
@@ -128,8 +129,8 @@
   .aboutMeContainer {
     background-image: linear-gradient(
       to bottom right,
-      hsl(200, 60%, 6%),
-      hsla(200, 60%, 6%, 0.747)
+      hsla(0, 0%, 100%, 0.4),
+      hsla(0, 0%, 100%, 0.1)
     );
   }
 }

@@ -10,12 +10,12 @@
 .smallTopWave {
   position: absolute;
   top: 0;
-  z-index: 3;
+  z-index: 1;
 }
 .smallBottomWave {
   position: absolute;
   bottom: 0;
-  z-index: 3;
+  z-index: 1;
 }
 .content {
   max-width: 1600px;
@@ -26,7 +26,6 @@
   width: 75%;
   text-align: center;
   margin: 10rem 0 10rem 0;
-  z-index: 1;
 }
 .title {
   font-size: clamp(2rem, 1.4rem + 3.2vw, 4rem);
