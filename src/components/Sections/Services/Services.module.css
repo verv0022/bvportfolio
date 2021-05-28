@@ -39,6 +39,7 @@
   align-items: center;
   width: 100%;
   color: hsl(0, 0%, 97%);
+  z-index: 2;
 }
 .service {
   display: flex;

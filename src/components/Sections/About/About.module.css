@@ -47,8 +47,6 @@
   text-align: left;
   color: hsl(0, 0%, 97%);
   width: 60%;
-
-  /* backdrop-filter: blur(2px); */
 }
 .collegeLink {
   color: #00b1cc;
@@ -132,6 +130,7 @@
       hsla(0, 0%, 100%, 0.4),
       hsla(0, 0%, 100%, 0.1)
     );
+    backdrop-filter: blur(2px);
   }
 }
 @media (max-width: 399px) {
