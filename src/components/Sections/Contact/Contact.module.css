@@ -61,9 +61,10 @@
   margin-bottom: 2rem;
   justify-self: start;
   align-self: flex-start;
-  text-align: center;
+  text-align: left;
   font-family: "Roboto", Helvetica, Arial, Lucida, sans-serif;
   color: hsl(0, 0%, 40%);
+  font-size: clamp(1rem, 0.85rem + 0.8vw, 1.5rem);
 }
 .imageContainer {
   width: 50%;
