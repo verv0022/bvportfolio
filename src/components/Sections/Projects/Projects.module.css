@@ -198,7 +198,7 @@
 }
 @media (max-width: 379px) {
   .title {
-    text-align: left;
+    text-align: center;
   }
   .card {
     width: 280px;
@@ -246,7 +246,7 @@
   }
   .title {
     margin-bottom: 4rem;
-    text-align: left;
+    text-align: center;
   }
 }
 @media (min-width: 400px) and (max-width: 899px) {

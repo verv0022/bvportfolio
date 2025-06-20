@@ -1,19 +1,24 @@
 <svg width="60" height="60" viewBox="0 0 180 183" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M90 183C139.706 183 180 142.706 180 93C180 43.2944 139.706 3 90 3C40.2944 3 0 43.2944 0 93C0 142.706 40.2944 183 90 183Z" fill="#52B9BF"/>
-<!-- <path d="M97.5 137C135.332 137 166 106.332 166 68.5C166 30.6685 135.332 0 97.5 0C59.6685 0 29 30.6685 29 68.5C29 106.332 59.6685 137 97.5 137Z" fill="url(#paint0_radial)"/> -->
-<path d="M30.5335 70.9487C30.5335 70.9487 38.2439 72.8942 51.6516 52.8242C51.6516 52.8242 70.2212 32.3154 51.9702 27.6237C51.9702 27.6237 33.7931 22.5067 28.3635 41.5858C28.3497 41.5858 19.5173 65.2209 30.5335 70.9487Z" fill="white" fill-opacity="0.53"/>
-<path d="M27.6443 76.5334C30.6946 79.473 27.6443 87.1295 27.6443 87.1295C27.6443 87.1295 27.6014 87.2462 27.5823 87.3045C27.3485 87.908 26.9671 88.4514 26.4689 88.8908C25.9707 89.3303 25.3696 89.6534 24.7141 89.8343C24.0586 90.0151 23.3671 90.0485 22.6953 89.9318C22.0236 89.8151 21.3904 89.5516 20.8468 89.1625C17.0281 86.4024 17.9827 81.4747 18.4887 79.7378C18.6118 79.3133 18.8069 78.9102 19.0663 78.544C20.1929 76.9418 23.7301 72.7591 27.6443 76.5334Z" fill="white" fill-opacity="0.53"/>
-<path d="M163.139 78C162.883 80.2925 162.54 82.5909 162.11 84.8954C153.014 133.235 107.074 165.204 59 157.018C71.0839 163.742 84.8496 166.8 98.6288 165.822C112.408 164.843 125.609 159.871 136.632 151.508C147.654 143.144 156.025 131.748 160.73 118.701C165.435 105.653 166.272 91.5153 163.139 78Z" fill="white" fill-opacity="0.53"/>
-<defs>
-<radialGradient id="paint0_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(97.5 68.5) scale(68.5)">
-<stop stop-color="white" stop-opacity="0.8"/>
-<stop offset="0.13" stop-color="white" stop-opacity="0.78"/>
-<stop offset="0.27" stop-color="white" stop-opacity="0.73"/>
-<stop offset="0.41" stop-color="white" stop-opacity="0.65"/>
-<stop offset="0.56" stop-color="white" stop-opacity="0.53"/>
-<stop offset="0.71" stop-color="white" stop-opacity="0.38"/>
-<stop offset="0.86" stop-color="white" stop-opacity="0.19"/>
-<stop offset="1" stop-color="white" stop-opacity="0"/>
-</radialGradient>
-</defs>
+  <defs>
+    <radialGradient id="bubbleGradientSmall" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#e0f7fa" stop-opacity="0.9"/>
+      <stop offset="60%" stop-color="#52B9BF" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#357e85" stop-opacity="0.7"/>
+    </radialGradient>
+    <radialGradient id="bubbleGlowSmall" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fff" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="bubbleShadowSmall" x1="0" y1="183" x2="180" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#000" stop-opacity="0.08"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="90" cy="93" rx="90" ry="90" fill="url(#bubbleGradientSmall)"/>
+  <ellipse cx="90" cy="93" rx="80" ry="80" fill="url(#bubbleGlowSmall)"/>
+  <ellipse cx="110" cy="120" rx="50" ry="20" fill="url(#bubbleShadowSmall)"/>
+  <ellipse cx="60" cy="60" rx="18" ry="8" fill="#fff" fill-opacity="0.5"/>
+  <ellipse cx="120" cy="40" rx="10" ry="4" fill="#fff" fill-opacity="0.3"/>
+  <ellipse cx="70" cy="110" rx="8" ry="3" fill="#fff" fill-opacity="0.15"/>
+  <ellipse cx="90" cy="93" rx="90" ry="90" fill="#fff" fill-opacity="0.08"/>
 </svg>

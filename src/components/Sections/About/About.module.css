@@ -11,11 +11,13 @@
   position: absolute;
   top: 0;
   z-index: 1;
+  width: 100%;
 }
 .smallBottomWave {
   position: absolute;
   bottom: 0;
   z-index: 1;
+  width: 100%;
 }
 .content {
   display: flex;
