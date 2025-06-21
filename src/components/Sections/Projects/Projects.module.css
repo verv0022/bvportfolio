@@ -202,8 +202,8 @@
   .topWave,
   .bottomWave {
     width: 100vw;
-    left: 0;
-    right: 0;
+    left: 50%;
+    transform: translateX(-50%);
   }
   .title {
     text-align: center;

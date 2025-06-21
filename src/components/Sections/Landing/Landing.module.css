@@ -124,8 +124,8 @@
 @media (max-width: 479px) {
   .topwave {
     width: 100vw;
-    left: 0;
-    right: 0;
+    left: 50%;
+    transform: translateX(-50%);
   }
   .heroContainer {
     margin-top: 2rem;
