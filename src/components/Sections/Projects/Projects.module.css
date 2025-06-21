@@ -30,11 +30,13 @@
   position: absolute;
   bottom: 0;
   z-index: 3;
+  width: 100%;
 }
 .bottomWave {
   position: absolute;
   top: 0;
   z-index: 3;
+  width: 100%;
 }
 .content {
   max-width: 1600px;
@@ -197,18 +199,18 @@
   }
 }
 @media (max-width: 379px) {
+  .topWave,
+  .bottomWave {
+    width: 100vw;
+    left: 0;
+    right: 0;
+  }
   .title {
     text-align: center;
   }
   .card {
     width: 280px;
   }
-  .cardContent {
-    padding: 20px;
-    align-items: left;
-    text-align: left;
-  }
-
   .cardContent {
     padding: 10px;
     align-items: left;
@@ -263,5 +265,55 @@
   }
   .title {
     margin-bottom: 6rem;
+  }
+}
+
+@media (max-width: 479px) {
+  .topWave,
+  .bottomWave {
+    width: 100vw;
+    left: 0;
+    right: 0;
+  }
+  .title {
+    text-align: center;
+  }
+  .card {
+    width: 280px;
+  }
+  .cardContent {
+    padding: 20px;
+    align-items: left;
+    text-align: left;
+  }
+
+  .cardContent {
+    padding: 10px;
+    align-items: left;
+    text-align: left;
+  }
+  .cardTitle {
+    padding: 10px 0 10px 0;
+  }
+  .overlay {
+    display: none;
+  }
+  .icon {
+    height: 30px;
+    margin: 0rem;
+  }
+  .icons {
+    text-decoration: none;
+    color: hsl(0, 0%, 97%);
+    margin: 10px;
+  }
+  .mobileIcons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: flex-end;
+  }
+  .iconLabel {
+    display: none;
   }
 }
