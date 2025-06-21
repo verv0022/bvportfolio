@@ -5,7 +5,6 @@
   background-color: hsl(198, 61%, 21%);
   background-size: 100%;
   position: relative;
-  overflow: hidden;
 }
 .smallTopWave {
   position: absolute;
