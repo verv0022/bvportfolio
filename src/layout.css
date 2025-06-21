@@ -8,6 +8,8 @@ html {
   font-size: 16px;
   height: 100%;
   scroll-behavior: smooth;
+  width: 100%;
+  overflow-x: hidden;
 }
 h1,
 h2,
@@ -150,3 +152,10 @@ li {
     z-index: -2;
   }
 }
+
+/* Fix for react-scroll-parallax container clipping content */
+.parallax-provider {
+  overflow: visible !important;
+}
+
+/* You can add more global styles here */
