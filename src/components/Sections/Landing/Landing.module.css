@@ -30,7 +30,7 @@
   height: clamp(60px, 10vw, 150px);
   background-image: url("../../../images/Backgrounds/topwave.svg");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
   z-index: 1;
 }
 .topwave {
