@@ -153,7 +153,8 @@ li {
   }
 }
 
-/* Fix for react-scroll-parallax container clipping content */
+/* Fix for Gatsby wrapper and parallax container clipping content */
+#gatsby-focus-wrapper,
 .parallax-provider {
   overflow: visible !important;
 }

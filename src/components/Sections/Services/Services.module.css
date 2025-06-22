@@ -137,3 +137,12 @@
     margin-bottom: 4rem;
   }
 }
+
+@media (max-width: 768px) {
+  .smallTopWave,
+  .smallBottomWave {
+    width: 100vw;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
