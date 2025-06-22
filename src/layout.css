@@ -17,6 +17,7 @@ body {
   height: 100%;
   scroll-behavior: smooth;
   width: 100%;
+  overflow-x: hidden;
 }
 h1,
 h2,
@@ -161,6 +162,17 @@ li {
 }
 
 /* Fix for Gatsby wrapper and parallax container clipping content */
+#gatsby-focus-wrapper,
+.parallax-provider {
+  overflow: visible !important;
+}
+
+/* 
+  Definitive fix for wave clipping issue on mobile browsers.
+  Gatsby's root wrapper div was clipping overflow content.
+  This override forces it and its children to be visible.
+*/
+#___gatsby,
 #gatsby-focus-wrapper,
 .parallax-provider {
   overflow: visible !important;
