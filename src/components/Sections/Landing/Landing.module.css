@@ -122,6 +122,9 @@
 }
 @media (max-width: 768px) {
   .topwave {
+    position: absolute;
+    bottom: 0;
+    z-index: 3;
     width: 100vw;
     left: 50%;
     transform: translateX(-50%);
@@ -129,6 +132,9 @@
 }
 @media (max-width: 479px) {
   .topwave {
+    position: absolute;
+    bottom: 0;
+    z-index: 3;
     width: 100vw;
     left: 50%;
     transform: translateX(-50%);
