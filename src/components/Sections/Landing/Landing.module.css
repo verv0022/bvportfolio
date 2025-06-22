@@ -20,7 +20,8 @@
   background-position: 90% 110%, center, center;
   background-attachment: fixed, scroll, scroll;
   position: relative;
-  height: 100vh;
+  min-height: 800px;
+  padding-bottom: 150px;
 }
 .container::after {
   content: "";
