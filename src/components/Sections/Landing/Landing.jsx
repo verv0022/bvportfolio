@@ -9,7 +9,6 @@ import topwave from "../../../images/Backgrounds/topwave.svg"
 const Landing = () => {
   return (
     <Div100vh className={styles.container} id="landingSection">
-      <img src={topwave} className={styles.topwave} alt="wave" />
       <div className={styles.content}>
         <div className={styles.heroContainer}>
           <div className={styles.heroTitle}>

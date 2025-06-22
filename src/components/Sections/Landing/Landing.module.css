@@ -19,13 +19,22 @@
   background-repeat: no-repeat, no-repeat, no-repeat;
   background-position: 90% 110%, center, center;
   background-attachment: fixed, scroll, scroll;
+  position: relative;
 }
-.topwave {
+.container::after {
+  content: "";
   position: absolute;
   bottom: 0;
-  z-index: 3;
+  left: 0;
   width: 100%;
   height: clamp(60px, 10vw, 150px);
+  background-image: url("../../../images/Backgrounds/topwave.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1;
+}
+.topwave {
+  display: none;
 }
 .content {
   display: flex;

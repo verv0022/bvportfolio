@@ -109,6 +109,7 @@ li {
 }
 .bubble {
   position: absolute;
+  z-index: 0;
 }
 .right1 {
   top: 20%;
@@ -150,14 +151,14 @@ li {
   .right1 {
     right: 20px;
     top: 30%;
-    z-index: -2;
+    z-index: 0;
   }
 }
 @media (min-width: 900px) and (max-width: 1300px) {
   .right1 {
     right: 20px;
     top: 20%;
-    z-index: -2;
+    z-index: 0;
   }
 }
 
