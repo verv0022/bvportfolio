@@ -176,6 +176,7 @@ li {
 #gatsby-focus-wrapper,
 .parallax-provider {
   overflow: visible !important;
+  overflow-x: visible !important;
 }
 
 /* You can add more global styles here */
