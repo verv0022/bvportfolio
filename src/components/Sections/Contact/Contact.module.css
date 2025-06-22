@@ -162,14 +162,6 @@ textarea:focus {
   background-color: hsl(0, 0%, 80%);
 }
 
-@media (max-width: 768px) {
-  .bottomWave {
-    width: 100vw;
-    left: 50%;
-    transform: translateX(-50%);
-  }
-}
-
 @media (max-width: 399px) {
   .bottomWave {
     width: 100vw;

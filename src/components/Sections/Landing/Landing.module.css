@@ -120,13 +120,6 @@
     background-position: 90% 130%, center;
   }
 }
-@media (max-width: 768px) {
-  .topwave {
-    width: 100vw;
-    left: 50%;
-    transform: translateX(-50%);
-  }
-}
 @media (max-width: 479px) {
   .topwave {
     width: 100vw;
