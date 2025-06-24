@@ -24,49 +24,49 @@ const Services = () => {
         <Parallax
           className={`${styles.bubble} ${styles.right1}`}
           y={[-600, 600]}
-          x={[-120, 120]}
+          x={[-40, 40]}
         >
           <BubbleBig />
         </Parallax>
         <Parallax
           className={`${styles.bubble} ${styles.right2}`}
           y={[-450, 750]}
-          x={[180, -240]}
+          x={[60, -80]}
         >
           <BubbleSmall />
         </Parallax>
         <Parallax
           className={`${styles.bubble} ${styles.right3}`}
           y={[-300, 300]}
-          x={[120, -360]}
+          x={[40, -120]}
         >
           <BubbleMedium />
         </Parallax>
         <Parallax
           className={`${styles.bubble} ${styles.center2}`}
           y={[-240, 360]}
-          x={[-180, 180]}
+          x={[-60, 60]}
         >
           <BubbleSmall />
         </Parallax>
         <Parallax
           className={`${styles.bubble} ${styles.left1}`}
           y={[-540, 540]}
-          x={[150, -150]}
+          x={[50, -50]}
         >
           <BubbleMedium />
         </Parallax>
         <Parallax
           className={`${styles.bubble} ${styles.left2}`}
           y={[-420, 420]}
-          x={[-90, 90]}
+          x={[-30, 30]}
         >
           <BubbleSmall />
         </Parallax>
         <Parallax
           className={`${styles.bubble} ${styles.left3}`}
           y={[-480, 480]}
-          x={[-150, 300]}
+          x={[-50, 100]}
         >
           <BubbleBig />
         </Parallax>
