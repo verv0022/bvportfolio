@@ -1,6 +1,6 @@
 .container {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
   min-height: 100vh;
   background-color: hsl(198, 61%, 21%);
@@ -47,6 +47,7 @@
   width: 100%;
   color: hsl(0, 0%, 97%);
   z-index: 2;
+  gap: 1.5rem;
 }
 .service {
   display: flex;
@@ -66,7 +67,6 @@
   max-width: 100%;
   width: 350px;
   min-height: 350px;
-  margin: 0 10px;
 }
 .serviceList {
   list-style: none;
@@ -89,32 +89,36 @@
 @media (min-width: 1050px) and (max-width: 1300px) {
   .servicesContainer {
     flex-direction: row;
+    gap: 1rem;
   }
   .service {
     width: 280px;
     min-height: 400px;
+    margin: 0 5px;
   }
 }
 @media (min-width: 600px) and (max-width: 1049px) {
   .servicesContainer {
     flex-direction: column;
+    gap: 2rem;
   }
   .service {
     width: 280px;
-    margin-bottom: 2rem;
     min-height: 300px;
     padding: 20px;
+    margin: 0;
   }
 }
 @media (max-width: 699px) {
   .servicesContainer {
     flex-direction: column;
+    gap: 1.5rem;
   }
   .service {
     width: 250px;
-    margin-bottom: 2rem;
     min-height: 250px;
     padding: 20px;
+    margin: 0;
   }
 }
 
