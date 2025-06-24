@@ -107,60 +107,6 @@ li {
     transition-duration: 0.001ms !important;
   }
 }
-.bubble {
-  position: absolute;
-  z-index: 0;
-}
-.right1 {
-  top: 20%;
-  right: 1%;
-}
-.right2 {
-  top: 40%;
-  right: 3%;
-}
-.right3 {
-  bottom: 0;
-  right: 6%;
-}
-.center1 {
-  top: 5%;
-}
-.center2 {
-  bottom: 0;
-  left: 30%;
-}
-.left1 {
-  top: 55%;
-  left: 1%;
-}
-.left2 {
-  top: 20%;
-  left: 5%;
-}
-.left3 {
-  bottom: 10%;
-  left: 3%;
-}
-@media (max-width: 600px) {
-  .bubble {
-    display: none;
-  }
-}
-@media (min-width: 400px) and (max-width: 899px) {
-  .right1 {
-    right: 20px;
-    top: 30%;
-    z-index: 0;
-  }
-}
-@media (min-width: 900px) and (max-width: 1300px) {
-  .right1 {
-    right: 20px;
-    top: 20%;
-    z-index: 0;
-  }
-}
 
 /* Fix for Gatsby wrapper and parallax container clipping content */
 #gatsby-focus-wrapper,

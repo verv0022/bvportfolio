@@ -18,28 +18,59 @@ const About = () => {
         alt="wave"
       />
       <div className={styles.content}>
-        <Parallax className="bubble right1" y={[-200, 200]} x={[-5, 5]}>
+        <Parallax
+          className={`${styles.bubble} ${styles.right1}`}
+          y={[-200, 200]}
+          x={[-5, 5]}
+        >
           <BubbleBig />
         </Parallax>
-        <Parallax className="bubble right2" y={[-250, 450]} x={[10, -50]}>
+        <Parallax
+          className={`${styles.bubble} ${styles.right2}`}
+          y={[-250, 450]}
+          x={[10, -50]}
+        >
           <BubbleSmall />
         </Parallax>
-        <Parallax className="bubble right3" y={[-100, 100]} x={[10, -50]}>
+        <Parallax
+          className={`${styles.bubble} ${styles.right3}`}
+          y={[-100, 100]}
+          x={[10, -50]}
+        >
           <BubbleMedium />
         </Parallax>
-        <Parallax className="bubble center1" y={[-100, 100]} x={[-10, 10]}>
+        <Parallax
+          className={`${styles.bubble} ${styles.center1}`}
+          y={[-100, 100]}
+          x={[-10, 10]}
+        >
           <BubbleMedium />
         </Parallax>
-        <Parallax className="bubble center2" y={[-80, 100]} x={[-10, 10]}>
+        <Parallax
+          className={`${styles.bubble} ${styles.center2}`}
+          y={[-80, 100]}
+          x={[-10, 10]}
+        >
           <BubbleSmall />
         </Parallax>
-        <Parallax className="bubble left1" y={[-300, 300]} x={[10, -10]}>
+        <Parallax
+          className={`${styles.bubble} ${styles.left1}`}
+          y={[-300, 300]}
+          x={[10, -10]}
+        >
           <BubbleMedium />
         </Parallax>
-        <Parallax className="bubble left2" y={[-250, 250]}>
+        <Parallax
+          className={`${styles.bubble} ${styles.left2}`}
+          y={[-250, 250]}
+        >
           <BubbleSmall />
         </Parallax>
-        <Parallax className="bubble left3" y={[-200, 200]} x={[-10, 30]}>
+        <Parallax
+          className={`${styles.bubble} ${styles.left3}`}
+          y={[-200, 200]}
+          x={[-10, 30]}
+        >
           <BubbleBig />
         </Parallax>
         <div className={styles.aboutMeContainer}>
@@ -48,7 +79,7 @@ const About = () => {
             <p>
               I'm a developer with a strong focus on mobile and front-end
               technologies, specializing in native iOS and cross-platform
-              applications. With over three years of experience, I’ve built
+              applications. With over three years of experience, I've built
               accessible, user-focused solutions for government and freelance
               projects, turning thoughtful designs into clean, functional code.
               I place a strong emphasis on user experience and thrive at the

@@ -21,25 +21,52 @@ const Services = () => {
         alt="wave"
       />
       <div className={styles.content}>
-        <Parallax className="bubble right1" y={[-300, 400]} x={[-5, 5]}>
+        <Parallax
+          className={`${styles.bubble} ${styles.right1}`}
+          y={[-300, 400]}
+          x={[-5, 5]}
+        >
           <BubbleBig />
         </Parallax>
-        <Parallax className="bubble right2" y={[-250, 450]} x={[10, -50]}>
+        <Parallax
+          className={`${styles.bubble} ${styles.right2}`}
+          y={[-250, 450]}
+          x={[10, -50]}
+        >
           <BubbleSmall />
         </Parallax>
-        <Parallax className="bubble right3" y={[-100, 100]} x={[10, -50]}>
+        <Parallax
+          className={`${styles.bubble} ${styles.right3}`}
+          y={[-100, 100]}
+          x={[10, -50]}
+        >
           <BubbleMedium />
         </Parallax>
-        <Parallax className="bubble center2" y={[-80, 100]} x={[-10, 10]}>
+        <Parallax
+          className={`${styles.bubble} ${styles.center2}`}
+          y={[-80, 100]}
+          x={[-10, 10]}
+        >
           <BubbleSmall />
         </Parallax>
-        <Parallax className="bubble left1" y={[-250, 250]} x={[10, -10]}>
+        <Parallax
+          className={`${styles.bubble} ${styles.left1}`}
+          y={[-250, 250]}
+          x={[10, -10]}
+        >
           <BubbleMedium />
         </Parallax>
-        <Parallax className="bubble left2" y={[-200, 200]}>
+        <Parallax
+          className={`${styles.bubble} ${styles.left2}`}
+          y={[-200, 200]}
+        >
           <BubbleSmall />
         </Parallax>
-        <Parallax className="bubble left3" y={[-150, 150]} x={[-10, 30]}>
+        <Parallax
+          className={`${styles.bubble} ${styles.left3}`}
+          y={[-150, 150]}
+          x={[-10, 30]}
+        >
           <BubbleBig />
         </Parallax>
         <h1 className={styles.title}>What I have to offer</h1>
