@@ -25,6 +25,7 @@ const Services = () => {
           className={`${styles.bubble} ${styles.right1}`}
           y={[-300, 400]}
           x={[-5, 5]}
+          speed={-2}
         >
           <BubbleBig />
         </Parallax>
@@ -32,6 +33,7 @@ const Services = () => {
           className={`${styles.bubble} ${styles.right2}`}
           y={[-250, 450]}
           x={[10, -50]}
+          speed={-1.5}
         >
           <BubbleSmall />
         </Parallax>
@@ -39,6 +41,7 @@ const Services = () => {
           className={`${styles.bubble} ${styles.right3}`}
           y={[-100, 100]}
           x={[10, -50]}
+          speed={-1}
         >
           <BubbleMedium />
         </Parallax>
@@ -46,6 +49,7 @@ const Services = () => {
           className={`${styles.bubble} ${styles.center2}`}
           y={[-80, 100]}
           x={[-10, 10]}
+          speed={-1.2}
         >
           <BubbleSmall />
         </Parallax>
@@ -53,12 +57,14 @@ const Services = () => {
           className={`${styles.bubble} ${styles.left1}`}
           y={[-250, 250]}
           x={[10, -10]}
+          speed={-1.8}
         >
           <BubbleMedium />
         </Parallax>
         <Parallax
           className={`${styles.bubble} ${styles.left2}`}
           y={[-200, 200]}
+          speed={-1.3}
         >
           <BubbleSmall />
         </Parallax>
@@ -66,6 +72,7 @@ const Services = () => {
           className={`${styles.bubble} ${styles.left3}`}
           y={[-150, 150]}
           x={[-10, 30]}
+          speed={-1.6}
         >
           <BubbleBig />
         </Parallax>
