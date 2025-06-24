@@ -20,57 +20,57 @@ const About = () => {
       <div className={styles.content}>
         <Parallax
           className={`${styles.bubble} ${styles.right1}`}
-          y={[-160, 160]}
-          x={[-40, 40]}
+          y={[-480, 480]}
+          x={[-120, 120]}
         >
           <BubbleBig />
         </Parallax>
         <Parallax
           className={`${styles.bubble} ${styles.right2}`}
-          y={[-120, 200]}
-          x={[60, -80]}
+          y={[-360, 600]}
+          x={[180, -240]}
         >
           <BubbleSmall />
         </Parallax>
         <Parallax
           className={`${styles.bubble} ${styles.right3}`}
-          y={[-80, 80]}
-          x={[40, -120]}
+          y={[-240, 240]}
+          x={[120, -360]}
         >
           <BubbleMedium />
         </Parallax>
         <Parallax
           className={`${styles.bubble} ${styles.center1}`}
-          y={[-100, 100]}
-          x={[-60, 60]}
+          y={[-300, 300]}
+          x={[-180, 180]}
         >
           <BubbleMedium />
         </Parallax>
         <Parallax
           className={`${styles.bubble} ${styles.center2}`}
-          y={[-60, 100]}
-          x={[-60, 60]}
+          y={[-180, 300]}
+          x={[-180, 180]}
         >
           <BubbleSmall />
         </Parallax>
         <Parallax
           className={`${styles.bubble} ${styles.left1}`}
-          y={[-140, 140]}
-          x={[50, -50]}
+          y={[-420, 420]}
+          x={[150, -150]}
         >
           <BubbleMedium />
         </Parallax>
         <Parallax
           className={`${styles.bubble} ${styles.left2}`}
-          y={[-100, 100]}
-          x={[-30, 30]}
+          y={[-300, 300]}
+          x={[-90, 90]}
         >
           <BubbleSmall />
         </Parallax>
         <Parallax
           className={`${styles.bubble} ${styles.left3}`}
-          y={[-120, 120]}
-          x={[-50, 100]}
+          y={[-360, 360]}
+          x={[-150, 300]}
         >
           <BubbleBig />
         </Parallax>
