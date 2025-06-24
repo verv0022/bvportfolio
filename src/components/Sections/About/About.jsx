@@ -22,7 +22,7 @@ const About = () => {
           className={`${styles.bubble} ${styles.right1}`}
           y={[-200, 200]}
           x={[-5, 5]}
-          speed={-5}
+          speed={-10}
         >
           <BubbleBig />
         </Parallax>
@@ -30,7 +30,7 @@ const About = () => {
           className={`${styles.bubble} ${styles.right2}`}
           y={[-250, 450]}
           x={[10, -50]}
-          speed={-4}
+          speed={-8}
         >
           <BubbleSmall />
         </Parallax>
@@ -38,7 +38,7 @@ const About = () => {
           className={`${styles.bubble} ${styles.right3}`}
           y={[-100, 100]}
           x={[10, -50]}
-          speed={-3}
+          speed={-6}
         >
           <BubbleMedium />
         </Parallax>
@@ -46,7 +46,7 @@ const About = () => {
           className={`${styles.bubble} ${styles.center1}`}
           y={[-100, 100]}
           x={[-10, 10]}
-          speed={-3.5}
+          speed={-7}
         >
           <BubbleMedium />
         </Parallax>
@@ -54,7 +54,7 @@ const About = () => {
           className={`${styles.bubble} ${styles.center2}`}
           y={[-80, 100]}
           x={[-10, 10]}
-          speed={-3.2}
+          speed={-6.5}
         >
           <BubbleSmall />
         </Parallax>
@@ -62,14 +62,14 @@ const About = () => {
           className={`${styles.bubble} ${styles.left1}`}
           y={[-300, 300]}
           x={[10, -10]}
-          speed={-4.5}
+          speed={-9}
         >
           <BubbleMedium />
         </Parallax>
         <Parallax
           className={`${styles.bubble} ${styles.left2}`}
           y={[-250, 250]}
-          speed={-3.8}
+          speed={-7.5}
         >
           <BubbleSmall />
         </Parallax>
@@ -77,7 +77,7 @@ const About = () => {
           className={`${styles.bubble} ${styles.left3}`}
           y={[-200, 200]}
           x={[-10, 30]}
-          speed={-4.2}
+          speed={-8.5}
         >
           <BubbleBig />
         </Parallax>
