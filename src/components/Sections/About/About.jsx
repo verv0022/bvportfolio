@@ -20,64 +20,57 @@ const About = () => {
       <div className={styles.content}>
         <Parallax
           className={`${styles.bubble} ${styles.right1}`}
-          y={[-200, 200]}
-          x={[-5, 5]}
-          speed={-10}
+          y={[-160, 160]}
+          x={[-40, 40]}
         >
           <BubbleBig />
         </Parallax>
         <Parallax
           className={`${styles.bubble} ${styles.right2}`}
-          y={[-250, 450]}
-          x={[10, -50]}
-          speed={-8}
+          y={[-120, 200]}
+          x={[60, -80]}
         >
           <BubbleSmall />
         </Parallax>
         <Parallax
           className={`${styles.bubble} ${styles.right3}`}
-          y={[-100, 100]}
-          x={[10, -50]}
-          speed={-6}
+          y={[-80, 80]}
+          x={[40, -120]}
         >
           <BubbleMedium />
         </Parallax>
         <Parallax
           className={`${styles.bubble} ${styles.center1}`}
           y={[-100, 100]}
-          x={[-10, 10]}
-          speed={-7}
+          x={[-60, 60]}
         >
           <BubbleMedium />
         </Parallax>
         <Parallax
           className={`${styles.bubble} ${styles.center2}`}
-          y={[-80, 100]}
-          x={[-10, 10]}
-          speed={-6.5}
+          y={[-60, 100]}
+          x={[-60, 60]}
         >
           <BubbleSmall />
         </Parallax>
         <Parallax
           className={`${styles.bubble} ${styles.left1}`}
-          y={[-300, 300]}
-          x={[10, -10]}
-          speed={-9}
+          y={[-140, 140]}
+          x={[50, -50]}
         >
           <BubbleMedium />
         </Parallax>
         <Parallax
           className={`${styles.bubble} ${styles.left2}`}
-          y={[-250, 250]}
-          speed={-7.5}
+          y={[-100, 100]}
+          x={[-30, 30]}
         >
           <BubbleSmall />
         </Parallax>
         <Parallax
           className={`${styles.bubble} ${styles.left3}`}
-          y={[-200, 200]}
-          x={[-10, 30]}
-          speed={-8.5}
+          y={[-120, 120]}
+          x={[-50, 100]}
         >
           <BubbleBig />
         </Parallax>
