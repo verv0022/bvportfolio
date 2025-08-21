@@ -3,7 +3,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 100vh;
   background-size: 100%;
   position: relative;
   overflow: hidden;
@@ -27,8 +26,7 @@
   justify-content: center;
   width: 75%;
   max-width: 1600px;
-  min-height: 100vh;
-  padding: 2rem 0;
+  padding: 4rem 0;
 }
 .title {
   align-self: flex-start;
@@ -139,7 +137,7 @@
 }
 @media (max-width: 599px) {
   .content {
-    padding: 1rem 0;
+    padding: 2rem 0;
   }
   .title {
     margin-bottom: 1rem;
@@ -151,7 +149,7 @@
 }
 @media (min-width: 400px) and (max-width: 899px) {
   .content {
-    padding: 1.5rem 0;
+    padding: 3rem 0;
   }
   .title {
     margin-bottom: 2rem;
@@ -159,7 +157,7 @@
 }
 @media (min-width: 900px) and (max-width: 1300px) {
   .content {
-    padding: 2rem 0;
+    padding: 4rem 0;
   }
   .title {
     margin-bottom: 4rem;
