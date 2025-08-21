@@ -24,7 +24,7 @@
   position: absolute;
   top: 20%;
   right: 10%;
-  width: 150px;
+  width: 200px;
   height: auto;
   z-index: 1;
 }
@@ -150,8 +150,7 @@
   }
   .container {
     justify-content: center;
-    background-image: url("../../../images/Backgrounds/sun.svg"),
-      repeating-linear-gradient(
+    background-image: repeating-linear-gradient(
         45deg,
         rgba(194, 194, 194, 0.1) 0px,
         rgba(194, 194, 194, 0.1) 2px,
@@ -164,8 +163,8 @@
         rgb(255, 255, 255),
         rgb(255, 255, 255)
       );
-    background-position: 50% 20%, center, center;
-    background-attachment: scroll, scroll, scroll;
+    background-position: center, center;
+    background-attachment: scroll, scroll;
   }
 }
 
