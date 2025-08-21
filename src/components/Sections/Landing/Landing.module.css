@@ -123,6 +123,9 @@
   }
 }
 @media (max-width: 479px) {
+  .mobileSun {
+    display: block;
+  }
   .heroContainer {
     margin-top: 2rem;
     flex-direction: column;
@@ -160,6 +163,16 @@
     background-repeat: no-repeat, no-repeat, no-repeat;
     background-position: 90% 110%, center, center;
     background-attachment: fixed, scroll, scroll;
+  }
+
+  .mobileSun {
+    display: none;
+    position: absolute;
+    top: 20%;
+    right: 10%;
+    width: 200px;
+    height: auto;
+    z-index: 1;
   }
 }
 
